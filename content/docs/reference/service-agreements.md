@@ -19,11 +19,11 @@ Service Level Agreements (SLAs) are designed to ensure your unique needs are met
 ## Why SLAs Are Important to You
 
 SLAs bring significant benefits, including:  
-- **Clarity:** You know exactly what to expect regarding service delivery and timelines.  
-- **Accountability:** Both parties are held responsible for meeting agreed-upon terms.  
-- **Performance Measurement:** Benchmarks allow you to evaluate the quality of service.  
-- **Problem Resolution:** A structured approach simplifies addressing any issues.  
-- **Improved Communication:** Transparent standards foster trust and understanding.  
+1. **Clarity:** You know exactly what to expect regarding service delivery and timelines.  
+2. **Accountability:** Both parties are held responsible for meeting agreed-upon terms.  
+3. **Performance Measurement:** Benchmarks allow you to evaluate the quality of service.  
+4. **Problem Resolution:** A structured approach simplifies addressing any issues.  
+5. **Improved Communication:** Transparent standards foster trust and understanding.  
 
 ## What an SLA Includes
 
@@ -73,7 +73,7 @@ If there are concerns about service delivery, a clear escalation process is in p
 
 ## Transparency in Billing  
 
-Every hour spent on your project is tracked with full transparency to ensure clarity in billing. For more information, you can refer to the [Transparent Billing](/time-tracking.md) page.
+Every hour spent on your project is tracked with full transparency to ensure clarity in billing. For more information, you can refer to the [Transparent Billing](/time-tracking) page.
 
 ## A Partnership Built on Trust  
 
