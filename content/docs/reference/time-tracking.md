@@ -17,7 +17,7 @@ seo:
 To ensure precise and efficient tracking of billable hours, Toggl Track is utilized. This approach guarantees transparency and accuracy in all consulting work, keeping clients informed and confident in the billing process.
 
 {{< callout context="note" title="Billing structure details" icon="outline/info-circle" >}}
-Hourly billing applies only to hourly projects. Fixed-price projects are not tracked by the hour but managed through [Upwork’s milestone features](https://www.upwork.com/i/how-it-works/client/milestones/). These features allow the project to be divided into manageable phases, each with specific due dates and deliverables.
+Hourly billing applies only to hourly projects. Fixed-price projects are not tracked by the hour but managed through [Upwork’s milestone features]([https://www.upwork.com/i/how-it-works/client/milestones/](https://www.upwork.com/resources/how-to-create-milestones-on-upwork)). These features allow the project to be divided into manageable phases, each with specific due dates and deliverables.
 {{< /callout >}}
 
 ## Why use Toggl Track
