@@ -1,5 +1,5 @@
 ---
-title: "Transparent Billing"
+title: "Time tracking"
 description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
 summary: ""
 date: 2023-09-07T16:04:48+02:00
@@ -14,25 +14,37 @@ seo:
   noindex: false # false (default) or true
 ---
 
-[Toggl Track](https://toggl.com/) is used to ensure precise and efficient tracking of the hours we bill to you. This keeps everything transparent and accurate in all our consulting work.
+To ensure precise and efficient tracking of billable hours, Toggl Track is utilized. This approach guarantees transparency and accuracy in all consulting work, keeping clients informed and confident in the billing process.
 
-{{< callout context="note" title="Note" icon="outline/info-circle" >}}
-Hourly billing tracking applies only to hourly projects. Fixed-price projects are not tracked by the hour but managed through [Upwork's milestone features](https://support.upwork.com/hc/en-us/articles/211068218-Milestones-for-Fixed-Price-Jobs) to keep everything organized and on track. This allows us to divide the project into manageable phases, each with its own due date and deliverables.{{< /callout >}}
+{{< callout context="note" title="Billing structure details" icon="outline/info-circle" >}}
+Hourly billing applies only to hourly projects. Fixed-price projects are not tracked by the hour but managed through [Upwork’s milestone features](https://www.upwork.com/i/how-it-works/client/milestones/). These features allow the project to be divided into manageable phases, each with specific due dates and deliverables.
+{{< /callout >}}
 
-## Why We Use Toggl Track
+## Why use Toggl Track
 
-- **Track Hours in Real-Time:** We log our hours as we work, ensuring an accurate record of our time spent on your projects.
-- **Bill with Confidence:** We capture every billable minute, so you can trust that our invoices reflect the actual work done.
-- **Stay Flexible:** Whether we're at our desks or on the go, Toggl Track syncs across all devices, fitting seamlessly into our workflow.
-- **Boost Productivity:** With the Pomodoro technique, we break work into focused intervals, improving efficiency and helping us avoid burnout.
+- **Track hours in real-time:** Hours are logged as work progresses, creating an accurate record of the time spent on projects.
+- **Bill with confidence:** Every billable minute is captured, ensuring invoices reflect the actual work completed.
+- **Stay flexible:** Toggl Track syncs seamlessly across all devices, fitting into workflows whether at a desk or on the go.
+- **Boost productivity:** By leveraging the [Pomodoro technique](https://toggl.com/track/pomodoro-timer-toggl/), tasks are broken into focused intervals, increasing efficiency and preventing burnout.
 
-## Who Benefits from This?
+## Who benefits from this?
 
-This approach benefits anyone who gets paid by the hour, including our consultants and hourly team members. By using Toggl Track, we maintain precise records, ensuring a smooth and transparent billing process for you.
+This approach benefits anyone engaged in hourly billing, including consultants and hourly team members. By using Toggl Track, precise records are maintained, ensuring a smooth and transparent billing process for clients. Additionally, all tickets and tasks are tracked directly in the client’s environment to ensure alignment and full visibility.
 
-## Flexibility for External Consultants
+{{< callout context="caution" title="External consultant flexibility" icon="outline/alert-triangle" >}}
+If a consultant is hired on your behalf, they are free to use any time tracking tool they prefer. However, [Toggl Track](https://toggl.com/track/) is strongly recommended for its ease of use and efficiency.
+{{< /callout >}}
 
-{{< callout context="caution" title="Caution" icon="outline/alert-triangle" >}}
-If we hire a consultant on your behalf, they can use any time tracking tool they prefer. However, we recommend [Toggl Track](https://toggl.com/) for its ease of use and efficiency. {{< /callout >}}
+## Security and privacy
 
-Using [Toggl Track](https://toggl.com/) allows us to provide you with accurate, transparent invoices, so you only pay for the actual hours worked on your project.
+Toggl Track ensures the privacy and security of all tracked data, adhering to industry standards. For more detailed information, please refer to the [Toggl Track Privacy Policy](https://toggl.com/legal/track/privacy/).
+
+## Reporting and client access
+
+While Toggl Track provides comprehensive reports detailing the breakdown of hours worked, direct access to tracked data requires a Toggl Track account. This ensures data integrity and security. Customized reports can be shared upon request to maintain transparency and confidence in the billing process.
+
+## Summary
+
+Toggl Track combines real-time tracking, robust privacy features, and the productivity-enhancing Pomodoro technique to ensure transparent and trustworthy billing. By tracking all tasks directly in the client’s environment and offering customized reports, this approach supports efficient workflows and builds client confidence.
+
+By utilizing [Toggl Track](https://toggl.com/track/), invoices are ensured to be accurate and transparent. Payment is only required for the actual hours worked, making the billing process straightforward and trustworthy.
