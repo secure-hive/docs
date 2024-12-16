@@ -1,5 +1,5 @@
 ---
-title: "Bespoke Service Agreements"
+title: "Bespoke service agreements"
 description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
 summary: ""
 date: 2023-09-07T16:04:48+02:00
@@ -71,8 +71,7 @@ A structured approach ensures your SLA aligns with your goals:
 
 ## Managing challenges
 
-{{< callout context="caution" title="Caution" icon="outline/alert-triangle" >}}
-### Overcoming obstacles
+{{< callout context="caution" title="Overcoming obstacles" icon="outline/alert-triangle" >}}
 
 Delays, such as late feedback, extended decision-making, or payment issues, can impact timelines. Adjustments are made collaboratively to keep the project on track by reflecting updated timelines where required.
 
