@@ -23,7 +23,7 @@ Structured meetings create clarity and drive measurable outcomes:
 - **Clarity and alignment**  
   Clear agendas and actionable goals ensure discussions stay focused and productive.  
 
-- **Professionalism and preparation**  
+- **Preparation**  
   Joining prepared respects participants' time and builds trust.  
 
 - **Focused outcomes**  
@@ -31,7 +31,7 @@ Structured meetings create clarity and drive measurable outcomes:
 
 ## Why prioritize asynchronous communication?  
 
-While meetings are valuable, **asynchronous communication** is the preferred approach for most day-to-day interactions. This method reduces inefficiencies, emphasizes documentation, and creates a reliable source of truth.
+While meetings are valuable, **asynchronous communication** is the preferred approach for most day-to-day interactions. This method reduces inefficiencies, emphasizes documentation-first workflows, and creates a reliable source of truth.
 
 ### What is asynchronous communication?  
 
@@ -52,11 +52,13 @@ Asynchronous communication ensures clients always have access to up-to-date, wel
 
 ### When to schedule a meeting  
 
-Meetings should be reserved for discussions that:  
+Meetings must be reserved for discussions that:  
 - Require real-time collaboration or decision-making.  
 - Involve brainstorming or resolving complex issues.  
 
-> **Note**: Avoid scheduling meetings about routine updates or minor queries. Use asynchronous channels wherever possible.  
+{{< callout context="note" title="Note" icon="outline/exclamation-circle" >}}  
+Avoid scheduling meetings about routine updates or minor queries. Use asynchronous channels wherever possible.  
+{{< /callout >}}
 
 ## Preparing for meetings  
 
@@ -83,7 +85,7 @@ To maintain a professional and distraction-free environment, follow these best p
 - **Setup readiness**: Ensure all equipment, including cameras and microphones, is tested and operational.  
 
 {{< callout context="note" title="Why keep cameras and microphones off initially?" icon="outline/video-camera" >}}  
-Starting with cameras and microphones off safeguards privacy, minimizes distractions, and ensures participants are ready before engaging.  
+Starting with cameras and microphones off protects privacy by ensuring that personal or sensitive background information isn’t unintentionally shared before everyone is fully ready. It also minimizes distractions, allowing participants to focus on the purpose of the meeting, and ensures all technical setups are in place before engaging.  
 {{< /callout >}}
 
 ## Running the agenda  
@@ -100,20 +102,20 @@ A structured agenda ensures meetings are focused, efficient, and actionable.
 The **DRI** is the individual responsible for scheduling the meeting. They ensure it has clear objectives, outcomes, and documentation.  
 {{< /callout >}}  
 
-Meetings without a clear agenda or purpose should be rescheduled or canceled.
+Meetings without a clear agenda or purpose must be rescheduled or canceled.
 
 ## Taking and sharing notes  
 
 Accurate and structured notes are essential for tracking progress and ensuring accountability.  
 
-- **Document during the meeting:** Record:  
+- **Document during the meeting**: Record:  
    - Key decisions made.  
    - Assigned action items.  
    - Agreed next steps and timelines.  
 
-- **Review and refine notes**: Notes should be checked for accuracy, grammar, and clarity before sharing.  
+- **Review and refine notes**: Notes must be checked for accuracy, grammar, and clarity before sharing.  
 - **Classify notes appropriately**: Apply labels according to the [Data Classification Policy](#).  
-- **Distribute notes promptly**: Notes are shared via a secure link for easy access and reference.  
+- **Distribute notes promptly**: Notes must be shared via a secure link for easy access and reference.  
 
 {{< callout context="tip" title="Why share clear and actionable notes?" icon="outline/document-text" >}}  
 Well-structured notes create a reliable record, reduce misunderstandings, and ensure alignment on next steps.  
@@ -127,11 +129,12 @@ Recording and transcription are limited to specific cases where they are necessa
    - To meet legal or regulatory requirements.  
    - For personnel or workplace matters requiring formal documentation.  
    - At the client's request.  
+   - If a participant is unavailable (e.g., on leave) and needs to catch up.  
 
-- **Transparency and consent**: Participants are informed before recording, the reason is explained, and the option to leave the call is provided.  
+- **Transparency and consent**: Participants must be informed before recording, the reason explained, and the option to leave the call provided.  
 
 {{< callout context="note" title="Why limit recordings?" icon="outline/shield-check" >}}  
-Restricting recordings protects privacy, ensures transparency, and maintains professionalism.  
+Recordings must be limited to essential situations, such as meeting legal requirements, or when a participant is unavailable and needs to catch up. Recordings are made only with explicit consent and a clear purpose. This ensures transparency, protects confidentiality, and maintains a professional approach to sensitive discussions.  
 {{< /callout >}}
 
 ## Scheduling meetings  
@@ -150,13 +153,13 @@ Signal Messenger ensures secure, private communication with:
 - **Adding participants**: Add participants as pre-established groups rather than individuals to streamline scheduling and avoid errors.  
 
 {{< callout context="tip" title="Why add participants as groups?" icon="outline/users" >}}  
-Using groups ensures all relevant participants are included, simplifies scheduling, and avoids unnecessary notifications.  
+Adding participants as groups ensures that those who leave meetings are removed, preventing bounce-back emails. It simplifies scheduling and guarantees that only the relevant individuals are included in communications.  
 {{< /callout >}}
 
 - **Time buffers**: Maintain a 20-minute buffer between meetings to accommodate overruns and allow preparation.  
 
 {{< callout context="tip" title="Why schedule with buffers?" icon="outline/refresh" >}}  
-Buffers reduce stress, prevent overlap, and ensure readiness for the next session.  
+Buffers reduce stress, prevent meeting overlap, and provide a mental reset before the next session.  
 {{< /callout >}}
 
 ## External meetings  
@@ -166,7 +169,7 @@ External meetings present opportunities to build trust and deliver results.
 - Cameras are turned on when presenting, when others have theirs on, or when requested.  
 - Microphones remain muted when not speaking to minimize background noise.  
 
-{{< callout context="note" title="Professionalism matters" icon="outline/briefcase" >}}  
+{{< callout context="note" title="External meetings" icon="outline/briefcase" >}}  
 External meetings demonstrate preparedness, organization, and respect for client time.  
 {{< /callout >}}
 
