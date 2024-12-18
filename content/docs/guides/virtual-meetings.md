@@ -91,7 +91,7 @@ Meetings without an agenda or clear purpose are rescheduled or canceled.
 
 Accurate and well-structured notes ensure progress is documented and responsibilities are clear.  
 
-- **During the meeting**: Notes capture:  
+- **Document during the meeting:** 
    - Key decisions made.  
    - Assigned action items.  
    - Agreed next steps and timelines.  
@@ -119,6 +119,8 @@ Meetings are not recorded or transcribed unless necessary.
 
 {{< callout context="note" title="Why this policy?" icon="outline/shield-check" >}}  
 Recording and transcription are limited to protect privacy, maintain transparency, and ensure that conversations are documented only when necessary. They are used sparingly to respect participant privacy.
+{{< /callout >}}
+
 ## Scheduling meetings  
 
 - **External meetings**: Client-facing meetings are scheduled using [Cal.com](https://cal.com/brandon.m) for a seamless and professional experience.  
