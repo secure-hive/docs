@@ -68,7 +68,7 @@ To maintain a professional and distraction-free environment, these practices are
 - **Setup readiness**: Meeting equipment, such as cameras and microphones, must be tested and operational to ensure full participation.  
 
 {{< callout context="note" title="Why keep cameras and microphones off initially?" icon="outline/video-camera" >}}  
-Keeping cameras and microphones off initially protects privacy, reduces unintentional information sharing, and ensures participants are ready to engage meaningfully.  
+Keeping cameras and microphones off initially safeguards privacy, prevents unintentional sharing, and reduces distractions at the start of a meeting.  
 {{< /callout >}}
 
 ## Running the agenda  
@@ -79,7 +79,7 @@ A clear agenda ensures meetings are productive, with actionable outcomes.
 - **Internally-led meetings**:  
    - The **Directly Responsible Individual (DRI)** prepares and shares the agenda in advance using the [Meeting Agenda Template](#) (to be created).  
    - Agendas must be attached to meeting invites for participant alignment.  
-   - A notetaker is designated to capture key points and action items.  
+   - A notetaker is designated to record decisions, action items, and next steps.  
 
 {{< callout context="note" title="What is a DRI?" icon="outline/user-circle" >}}  
 The **DRI** is the person scheduling the meeting. They ensure the meeting has a clear purpose, actionable outcomes, and proper documentation.  
@@ -89,40 +89,40 @@ Meetings without an agenda or clear purpose are rescheduled or canceled.
 
 ## Taking and sharing notes  
 
-Accurate and well-structured notes are essential for tracking progress and ensuring accountability.  
+Accurate and well-structured notes ensure progress is documented and responsibilities are clear.  
 
-- **Documenting during the meeting**: Notes include:  
+- **During the meeting**: Notes capture:  
    - Key decisions made.  
-   - Action items and their assignments.  
-   - Next steps and follow-up timelines.  
+   - Assigned action items.  
+   - Agreed next steps and timelines.  
 
-- **Reviewing and refining notes**: Notes are checked for accuracy and clarity to ensure the content is easily understood by all participants.  
+- **Refining and reviewing notes**: Notes are reviewed for accuracy and clarity to ensure they are actionable and easy to understand.  
 
-- **Sharing notes**: Notes are stored securely in our **zero-knowledge cloud service**, and a link to the notes is shared with relevant participants.  
+- **Sharing notes**: Notes are stored in a dedicated system designed for documentation management and shared via a link with relevant participants for easy access and reference.  
 
 {{< callout context="tip" title="Why share clear and actionable notes?" icon="outline/document-text" >}}  
-Well-organized notes provide a reliable record of decisions and responsibilities, reducing misunderstandings and driving progress. They ensure all participants have access to critical information while maintaining confidentiality.  
+Detailed notes create a clear record of decisions, reduce misunderstandings, and provide a central reference for follow-up actions. Sharing notes ensures accessibility and consistency across all participants.  
 {{< /callout >}}
 
 ## Call recordings and transcription  
 
-Meetings are not recorded or transcribed unless necessary.  
+Meetings are not recorded or transcribed unless necessary.
 
-- **Permitted recordings**:  
-   - Legal requirements.  
-   - HR-related matters.  
-   - Client requests.  
+- **When recordings are allowed**:  
+   - Meeting legal or regulatory requirements.
+   - Addressing personnel or workplace matters requiring formal documentation.
+   - Accommodating client requests for meeting recordings.
+   - To ensure individuals who are on leave or unavailable can review and catch up on discussions.
 
-- **Transparency and consent**: Participants are informed before recording, the reason for the recording is provided, and the option to leave the call is offered.  
+
+- **Transparency and consent**: Participants are informed before recording, the reason for recording is provided, and the option to leave the call is offered.  
 
 {{< callout context="note" title="Why this policy?" icon="outline/shield-check" >}}  
-Recording is only permitted when necessary to protect privacy and ensure transparency.  
-{{< /callout >}}
-
+Recording and transcription are limited to protect privacy, maintain transparency, and ensure that conversations are documented only when necessary. They are used sparingly to respect participant privacy.
 ## Scheduling meetings  
 
 - **External meetings**: Client-facing meetings are scheduled using [Cal.com](https://cal.com/brandon.m) for a seamless and professional experience.  
-- **Internal meetings**: Internal meetings are booked directly in calendars and conducted via **Signal Messenger** for secure collaboration.  
+- **Internal meetings**: Internal meetings are booked directly in calendars and conducted via [Signal Messenger](https://signal.org) for secure collaboration.  
 
 {{< callout context="note" title="Why use Signal for internal meetings?" icon="outline/shield" >}}  
 Signal Messenger is designed to prioritize privacy and security with:  
@@ -135,18 +135,18 @@ Signal Messenger is designed to prioritize privacy and security with:
 - **Adding participants**: Participants are added as pre-established groups (e.g., teams or departments) wherever possible, rather than individually.  
 
 {{< callout context="tip" title="Why add participants as groups?" icon="outline/users" >}}  
-Using groups minimizes the risk of missing participants and ensures efficient scheduling.  
+Using groups ensures all relevant participants are included, streamlines scheduling, and prevents updates or notifications from being sent to individuals who leave the business.
 {{< /callout >}}
 
 - **Time buffers**: A buffer of at least 20 minutes is maintained between meetings to prevent delays, allow mental resets, and prepare for subsequent discussions.  
 
 {{< callout context="tip" title="Why schedule with buffers?" icon="outline/refresh" >}}  
-Buffers prevent back-to-back meetings, reducing stress and improving focus.  
+Buffers provide essential breaks between meetings, helping to prevent overlap, reduce stress, and maintain focus by allowing time to regroup and prepare.
 {{< /callout >}}
 
 ## External meetings  
 
-External meetings reflect professionalism and client-focused organization.  
+For external meetings :
 
 - Cameras are turned on when presenting, when others have theirs on, or when requested.  
 - Microphones remain muted when not speaking to minimize background noise.  
@@ -162,7 +162,7 @@ External meetings are an opportunity to build trust and deliver value. Time is r
 3. **Always have an agenda**: No agenda, no meeting. Agendas must be attached to invites.  
 4. **Take actionable notes**: Record decisions, assign follow-ups, and classify notes appropriately.  
 5. **Respect client leadership**: Client meetings are led by clients unless otherwise agreed.  
-6. **Add participants as groups**: Scheduling groups ensures all relevant attendees are included.  
+6. **Add participants as groups**: Scheduling groups ensures all relevant attendees are included and eliminates redundant notifications.  
 7. **Maintain buffers**: A 20-minute buffer prevents delays and allows mental preparation.  
 8. **Follow recording policies**: Recording or transcription is permitted only when necessary and with consent.  
 
