@@ -1,5 +1,5 @@
 ---
-title: "How virtual meetings are conducted"
+title: "How meetings are conducted"
 description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
 summary: ""
 date: 2023-09-07T16:04:48+02:00
@@ -14,158 +14,171 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Meetings are more than just scheduled conversations—they’re opportunities to align, collaborate, and deliver results. Designed with clarity and professionalism in mind, this guide ensures every meeting is purposeful, efficient, and respectful of participants' time.
+Meetings are more than just scheduled conversations—they’re opportunities to align, collaborate, and deliver results. This guide provides a structured approach to ensure every meeting is purposeful, efficient, and respectful of participants' time.
 
 ## The benefits of structured meetings  
 
-Well-organized meetings deliver measurable outcomes:  
+Structured meetings create clarity and drive measurable outcomes:  
 
 - **Clarity and alignment**  
-  Clear agendas and actionable goals ensure everyone is on the same page.  
+  Clear agendas and actionable goals ensure discussions stay focused and productive.  
 
 - **Professionalism and preparation**  
-  Arriving prepared demonstrates respect for participants’ time and builds trust.  
+  Joining prepared respects participants' time and builds trust.  
 
 - **Focused outcomes**  
-  Defined action items and follow-ups create accountability and drive progress.  
+  Defined action items and follow-ups create accountability and measurable progress.  
 
 ## Why prioritize asynchronous communication?  
 
-While meetings play a role in collaboration, **asynchronous communication** is the preferred method for day-to-day exchanges.  
+While meetings are valuable, **asynchronous communication** is the preferred approach for most day-to-day interactions. This method reduces inefficiencies, emphasizes documentation, and creates a reliable source of truth.
 
-- **What is asynchronous communication?**  
-  Asynchronous communication involves sharing information without requiring immediate responses (e.g., emails, documentation, or project updates).  
+### What is asynchronous communication?  
 
-- **Why prefer asynchronous communication?**  
-   - Reduces unnecessary interruptions, allowing for deeper focus and productivity.  
-   - Ensures documentation-first workflows, creating a reliable source of truth.  
-   - Makes information accessible to all team members, regardless of location or time zone.  
+Asynchronous communication involves sharing information without requiring immediate responses. Common examples include:  
+- Emails  
+- Documentation  
+- Project updates  
 
-Meetings should be reserved for discussions that require real-time collaboration or decision-making. **We do not hold meetings about meetings.**
+### Why choose asynchronous communication?  
+
+- **Reduces interruptions**: Allows for deeper focus and increased productivity.  
+- **Prioritizes documentation-first workflows**: Ensures information is shared, distributed, and preserved as a reliable reference, avoiding bottlenecks.  
+- **Supports flexibility**: Accommodates different schedules and time zones, enabling meaningful contributions.  
+
+{{< callout context="tip" title="How does this benefit clients?" icon="outline/lightbulb" >}}  
+Asynchronous communication ensures clients always have access to up-to-date, well-documented information. This approach enhances transparency, reduces delays, and creates a reliable foundation for collaboration.  
+{{< /callout >}}
+
+### When to schedule a meeting  
+
+Meetings should be reserved for discussions that:  
+- Require real-time collaboration or decision-making.  
+- Involve brainstorming or resolving complex issues.  
+
+> **Note**: Avoid scheduling meetings about routine updates or minor queries. Use asynchronous channels wherever possible.  
 
 ## Preparing for meetings  
 
-Joining a meeting prepared ensures it begins on time and without disruption.  
+Preparation ensures meetings start smoothly and achieve their intended outcomes.  
 
-- **Arrive early**: Joining 5 minutes before the scheduled start time allows for testing of cameras, microphones, and headsets.  
-- **Have a backup**: A spare headset should be kept ready in case of unexpected technical issues.  
+- **Arrive early**: Joining 5 minutes before the start time allows for testing of cameras, microphones, and headsets.  
+- **Have a backup**: Keeping a spare headset available minimizes disruptions caused by technical issues.  
 
 {{< callout context="tip" title="Why arrive early?" icon="outline/clock" >}}  
-Arriving early ensures technical issues are resolved beforehand and the meeting can start promptly, respecting everyone’s time.  
+Early preparation prevents delays, respects others’ time, and ensures a professional start to every meeting.  
 {{< /callout >}}  
 
-When billing by the hour, timers must be running before the meeting begins.
+For billable meetings, ensure timers are running before the session begins.
 
 ## Joining meetings  
 
-To maintain a professional and distraction-free environment, these practices are followed when joining meetings:  
+To maintain a professional and distraction-free environment, follow these best practices:  
 
 - **Cameras and microphones**:  
-  - Cameras and microphones are kept off when joining to protect privacy and minimize interruptions.  
+  - Cameras and microphones are kept off when joining to protect privacy and reduce interruptions.  
   - Cameras are turned on when presenting, when others have theirs on, or when requested.  
-  - When unsure, clarification is sought on whether cameras are to remain on.  
+  - If unsure, clarify whether cameras should remain on.  
 
-- **Setup readiness**: Meeting equipment, such as cameras and microphones, must be tested and operational to ensure full participation.  
+- **Setup readiness**: Ensure all equipment, including cameras and microphones, is tested and operational.  
 
 {{< callout context="note" title="Why keep cameras and microphones off initially?" icon="outline/video-camera" >}}  
-Keeping cameras and microphones off initially safeguards privacy, prevents unintentional sharing, and reduces distractions at the start of a meeting.  
+Starting with cameras and microphones off safeguards privacy, minimizes distractions, and ensures participants are ready before engaging.  
 {{< /callout >}}
 
 ## Running the agenda  
 
-A clear agenda ensures meetings are productive, with actionable outcomes.  
+A structured agenda ensures meetings are focused, efficient, and actionable.  
 
-- **Client-led meetings**: When the meeting is called by a client, the agenda is set and driven by them.  
+- **Client-led meetings**: For client-initiated meetings, the agenda is driven by the client.  
 - **Internally-led meetings**:  
    - The **Directly Responsible Individual (DRI)** prepares and shares the agenda in advance using the [Meeting Agenda Template](#) (to be created).  
-   - Agendas must be attached to meeting invites for participant alignment.  
-   - A notetaker is designated to record decisions, action items, and next steps.  
+   - Agendas must be attached to meeting invites for alignment.  
+   - A notetaker is designated to record key points, decisions, and next steps.  
 
 {{< callout context="note" title="What is a DRI?" icon="outline/user-circle" >}}  
-The **DRI** is the person scheduling the meeting. They ensure the meeting has a clear purpose, actionable outcomes, and proper documentation.  
+The **DRI** is the individual responsible for scheduling the meeting. They ensure it has clear objectives, outcomes, and documentation.  
 {{< /callout >}}  
 
-Meetings without an agenda or clear purpose are rescheduled or canceled.  
+Meetings without a clear agenda or purpose should be rescheduled or canceled.
 
 ## Taking and sharing notes  
 
-Accurate and well-structured notes ensure progress is documented and responsibilities are clear.  
+Accurate and structured notes are essential for tracking progress and ensuring accountability.  
 
-- **Document during the meeting:** 
+- **Document during the meeting:** Record:  
    - Key decisions made.  
    - Assigned action items.  
    - Agreed next steps and timelines.  
 
-- **Refining and reviewing notes**: Notes are reviewed for accuracy and clarity to ensure they are actionable and easy to understand.  
-
-- **Sharing notes**: Notes are stored in a dedicated system designed for documentation management and shared via a link with relevant participants for easy access and reference.  
+- **Review and refine notes**: Notes should be checked for accuracy, grammar, and clarity before sharing.  
+- **Classify notes appropriately**: Apply labels according to the [Data Classification Policy](#).  
+- **Distribute notes promptly**: Notes are shared via a secure link for easy access and reference.  
 
 {{< callout context="tip" title="Why share clear and actionable notes?" icon="outline/document-text" >}}  
-Detailed notes create a clear record of decisions, reduce misunderstandings, and provide a central reference for follow-up actions. Sharing notes ensures accessibility and consistency across all participants.  
+Well-structured notes create a reliable record, reduce misunderstandings, and ensure alignment on next steps.  
 {{< /callout >}}
 
 ## Call recordings and transcription  
 
-Meetings are not recorded or transcribed unless necessary.
+Recording and transcription are limited to specific cases where they are necessary.  
 
 - **When recordings are allowed**:  
-   - Meeting legal or regulatory requirements.
-   - Addressing personnel or workplace matters requiring formal documentation.
-   - Accommodating client requests for meeting recordings.
-   - To ensure individuals who are on leave or unavailable can review and catch up on discussions.
+   - To meet legal or regulatory requirements.  
+   - For personnel or workplace matters requiring formal documentation.  
+   - At the client's request.  
 
+- **Transparency and consent**: Participants are informed before recording, the reason is explained, and the option to leave the call is provided.  
 
-- **Transparency and consent**: Participants are informed before recording, the reason for recording is provided, and the option to leave the call is offered.  
-
-{{< callout context="note" title="Why this policy?" icon="outline/shield-check" >}}  
-Recording and transcription are limited to protect privacy, maintain transparency, and ensure that conversations are documented only when necessary. They are used sparingly to respect participant privacy.
+{{< callout context="note" title="Why limit recordings?" icon="outline/shield-check" >}}  
+Restricting recordings protects privacy, ensures transparency, and maintains professionalism.  
 {{< /callout >}}
 
 ## Scheduling meetings  
 
-- **External meetings**: Client-facing meetings are scheduled using [Cal.com](https://cal.com/brandon.m) for a seamless and professional experience.  
-- **Internal meetings**: Internal meetings are booked directly in calendars and conducted via [Signal Messenger](https://signal.org) for secure collaboration.  
+- **External meetings**: Client-facing meetings are scheduled via [Cal.com](https://cal.com/brandon.m) for a seamless experience.  
+- **Internal meetings**: Internal meetings are booked directly in calendars and conducted via [Signal Messenger](https://signal.org).  
 
 {{< callout context="note" title="Why use Signal for internal meetings?" icon="outline/shield" >}}  
-Signal Messenger is designed to prioritize privacy and security with:  
-- **Privacy by Design**: Signal does not collect or store metadata, ensuring conversations remain private.  
-- **No AI Use or Abuse**: Unlike other platforms, Signal does not analyze, monetize, or exploit communications.  
-- **Perfect Forward Secrecy**: Each message is encrypted with unique keys, meaning even if one key is compromised, previous conversations remain secure.  
-- **Cross-Device Support**: Signal seamlessly integrates across desktop and mobile for flexible communication.  
+Signal Messenger ensures secure, private communication with:  
+- **Privacy by Design**: Signal does not collect or store metadata, ensuring confidentiality.  
+- **No AI Use or Abuse**: Conversations are not analyzed, monetized, or exploited.  
+- **Perfect Forward Secrecy**: Unique encryption keys for each message protect previous conversations, even if a key is compromised.  
+- **Cross-Device Support**: Seamlessly integrates across desktop and mobile for flexible communication.  
 {{< /callout >}}
 
-- **Adding participants**: Participants are added as pre-established groups (e.g., teams or departments) wherever possible, rather than individually.  
+- **Adding participants**: Add participants as pre-established groups rather than individuals to streamline scheduling and avoid errors.  
 
 {{< callout context="tip" title="Why add participants as groups?" icon="outline/users" >}}  
-Using groups ensures all relevant participants are included, streamlines scheduling, and prevents updates or notifications from being sent to individuals who leave the business.
+Using groups ensures all relevant participants are included, simplifies scheduling, and avoids unnecessary notifications.  
 {{< /callout >}}
 
-- **Time buffers**: A buffer of at least 20 minutes is maintained between meetings to prevent delays, allow mental resets, and prepare for subsequent discussions.  
+- **Time buffers**: Maintain a 20-minute buffer between meetings to accommodate overruns and allow preparation.  
 
 {{< callout context="tip" title="Why schedule with buffers?" icon="outline/refresh" >}}  
-Buffers provide essential breaks between meetings, helping to prevent overlap, reduce stress, and maintain focus by allowing time to regroup and prepare.
+Buffers reduce stress, prevent overlap, and ensure readiness for the next session.  
 {{< /callout >}}
 
 ## External meetings  
 
-For external meetings :
+External meetings present opportunities to build trust and deliver results.  
 
 - Cameras are turned on when presenting, when others have theirs on, or when requested.  
 - Microphones remain muted when not speaking to minimize background noise.  
 
 {{< callout context="note" title="Professionalism matters" icon="outline/briefcase" >}}  
-External meetings are an opportunity to build trust and deliver value. Time is respected by ensuring preparedness, organization, and focus.  
+External meetings demonstrate preparedness, organization, and respect for client time.  
 {{< /callout >}}
 
 ## Key principles for meetings  
 
 1. **Asynchronous first**: Prioritize documentation and asynchronous communication to minimize unnecessary meetings.  
-2. **Be prepared**: Arrive early, test equipment, and keep a backup headset ready.  
-3. **Always have an agenda**: No agenda, no meeting. Agendas must be attached to invites.  
+2. **Be prepared**: Arrive early, test equipment, and have a backup headset ready.  
+3. **Always have an agenda**: No agenda, no meeting. Attach agendas to invites.  
 4. **Take actionable notes**: Record decisions, assign follow-ups, and classify notes appropriately.  
-5. **Respect client leadership**: Client meetings are led by clients unless otherwise agreed.  
-6. **Add participants as groups**: Scheduling groups ensures all relevant attendees are included and eliminates redundant notifications.  
-7. **Maintain buffers**: A 20-minute buffer prevents delays and allows mental preparation.  
-8. **Follow recording policies**: Recording or transcription is permitted only when necessary and with consent.  
+5. **Respect client leadership**: Client meetings are led by the client unless otherwise agreed.  
+6. **Add participants as groups**: Ensures all relevant attendees are included and avoids redundant notifications.  
+7. **Maintain buffers**: A 20-minute buffer prevents delays and allows preparation.  
+8. **Follow recording policies**: Recording or transcription is only permitted when necessary and with consent.  
 
-By adhering to these principles, meetings become productive, goal-oriented sessions that drive progress and collaboration while respecting everyone’s time and privacy.
+By adhering to these principles, meetings become focused, productive, and respectful of time, fostering trust and collaboration.
