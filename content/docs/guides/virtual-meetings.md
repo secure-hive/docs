@@ -29,6 +29,20 @@ Well-organized meetings deliver measurable outcomes:
 - **Focused outcomes**  
   Defined action items and follow-ups create accountability and drive progress.  
 
+## Why prioritize asynchronous communication?  
+
+While meetings play a role in collaboration, **asynchronous communication** is the preferred method for day-to-day exchanges.  
+
+- **What is asynchronous communication?**  
+  Asynchronous communication involves sharing information without requiring immediate responses (e.g., emails, documentation, or project updates).  
+
+- **Why prefer asynchronous communication?**  
+   - Reduces unnecessary interruptions, allowing for deeper focus and productivity.  
+   - Ensures documentation-first workflows, creating a reliable source of truth.  
+   - Makes information accessible to all team members, regardless of location or time zone.  
+
+Meetings should be reserved for discussions that require real-time collaboration or decision-making. **We do not hold meetings about meetings.**
+
 ## Preparing for meetings  
 
 Joining a meeting prepared ensures it begins on time and without disruption.  
@@ -37,7 +51,7 @@ Joining a meeting prepared ensures it begins on time and without disruption.
 - **Have a backup**: A spare headset should be kept ready in case of unexpected technical issues.  
 
 {{< callout context="tip" title="Why arrive early?" icon="outline/clock" >}}  
-Arriving early demonstrates professionalism, ensures a smooth start, and avoids wasting participants’ time.  
+Arriving early ensures technical issues are resolved beforehand and the meeting can start promptly, respecting everyone’s time.  
 {{< /callout >}}  
 
 When billing by the hour, timers must be running before the meeting begins.
@@ -47,14 +61,14 @@ When billing by the hour, timers must be running before the meeting begins.
 To maintain a professional and distraction-free environment, these practices are followed when joining meetings:  
 
 - **Cameras and microphones**:  
-  - Cameras and microphones are kept off when joining to avoid interruptions caused by background noise or unintended video distractions.  
+  - Cameras and microphones are kept off when joining to protect privacy and minimize interruptions.  
   - Cameras are turned on when presenting, when others have theirs on, or when requested.  
   - When unsure, clarification is sought on whether cameras are to remain on.  
 
 - **Setup readiness**: Meeting equipment, such as cameras and microphones, must be tested and operational to ensure full participation.  
 
 {{< callout context="note" title="Why keep cameras and microphones off initially?" icon="outline/video-camera" >}}  
-Starting this way minimizes potential disruptions and allows participants to settle into the meeting smoothly.  
+Keeping cameras and microphones off initially protects privacy, reduces unintentional information sharing, and ensures participants are ready to engage meaningfully.  
 {{< /callout >}}
 
 ## Running the agenda  
@@ -78,18 +92,16 @@ Meetings without an agenda or clear purpose are rescheduled or canceled.
 Accurate and well-structured notes are essential for tracking progress and ensuring accountability.  
 
 - **Documenting during the meeting**: Notes include:  
-   - Decisions made.  
+   - Key decisions made.  
    - Action items and their assignments.  
    - Next steps and follow-up timelines.  
 
-- **Reviewing and classifying notes**:  
-   - Notes are cleaned for grammar and clarity using available tools.  
-   - Labels are applied according to the [Data Classification Policy](#).  
+- **Reviewing and refining notes**: Notes are checked for accuracy and clarity to ensure the content is easily understood by all participants.  
 
-- **Sharing promptly**: Notes are distributed to participants shortly after the meeting to maintain alignment.  
+- **Sharing notes**: Notes are stored securely in our **zero-knowledge cloud service**, and a link to the notes is shared with relevant participants.  
 
-{{< callout context="tip" title="Why review and classify notes?" icon="outline/document-text" >}}  
-Clear, accurate notes ensure all participants understand their responsibilities and that sensitive information is handled appropriately.  
+{{< callout context="tip" title="Why share clear and actionable notes?" icon="outline/document-text" >}}  
+Well-organized notes provide a reliable record of decisions and responsibilities, reducing misunderstandings and driving progress. They ensure all participants have access to critical information while maintaining confidentiality.  
 {{< /callout >}}
 
 ## Call recordings and transcription  
@@ -145,24 +157,13 @@ External meetings are an opportunity to build trust and deliver value. Time is r
 
 ## Key principles for meetings  
 
-1. **Be prepared**: Arrive early, test equipment, and keep a backup headset ready.  
-2. **Always have an agenda**: No agenda, no meeting. Agendas must be attached to invites.  
-3. **Take actionable notes**: Record decisions, assign follow-ups, and classify notes appropriately.  
-4. **Respect client leadership**: Client meetings are led by clients unless otherwise agreed.  
-5. **Add participants as groups**: Scheduling groups ensures all relevant attendees are included.  
-6. **Maintain buffers**: A 20-minute buffer prevents delays and allows mental preparation.  
-7. **Follow recording policies**: Recording or transcription is permitted only when necessary and with consent.
+1. **Asynchronous first**: Prioritize documentation and asynchronous communication to minimize unnecessary meetings.  
+2. **Be prepared**: Arrive early, test equipment, and keep a backup headset ready.  
+3. **Always have an agenda**: No agenda, no meeting. Agendas must be attached to invites.  
+4. **Take actionable notes**: Record decisions, assign follow-ups, and classify notes appropriately.  
+5. **Respect client leadership**: Client meetings are led by clients unless otherwise agreed.  
+6. **Add participants as groups**: Scheduling groups ensures all relevant attendees are included.  
+7. **Maintain buffers**: A 20-minute buffer prevents delays and allows mental preparation.  
+8. **Follow recording policies**: Recording or transcription is permitted only when necessary and with consent.  
 
-{{< callout context="tip" title="Maximize meeting outcomes" icon="outline/check-circle" >}}  
-Well-structured meetings produce clear decisions, actionable next steps, and measurable progress. Document these outcomes and follow up promptly to maintain momentum.  
-{{< /callout >}}
-
-## Conclusion  
-
-Effective meetings are the foundation of clear communication and successful collaboration. By following these practices:  
-
-- Meetings begin promptly, ensuring respect for everyone’s time.  
-- Agendas and actionable notes create alignment and accountability.  
-- Secure communication platforms like Signal prioritize privacy and protect sensitive information.  
-
-By maintaining professionalism, preparation, and focus, meetings become opportunities to drive measurable progress, build trust, and strengthen client relationships.
+By adhering to these principles, meetings become productive, goal-oriented sessions that drive progress and collaboration while respecting everyone’s time and privacy.
