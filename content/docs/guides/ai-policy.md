@@ -1,5 +1,18 @@
-# AI Usage Policy
-
+---
+title: "Using Artificial Intelligence"
+description: "Guides lead a user through a specific task they want to accomplish, often with a sequence of steps."
+summary: ""
+date: 2023-09-07T16:04:48+02:00
+lastmod: 2023-09-07T16:04:48+02:00
+draft: false
+weight: 810
+toc: true
+seo:
+  title: "" # custom title (optional)
+  description: "" # custom description (recommended)
+  canonical: "" # custom canonical URL (optional)
+  noindex: false # false (default) or true
+---
 Harnessing the power of artificial intelligence requires a balance of innovation, responsibility, and vigilance. AI tools offer transformative potential to enhance productivity, improve decision-making, and deliver impactful results. However, their use must account for the serious threats to security, privacy, and ethical integrity they can pose if not managed properly. This policy emphasizes the importance of responsible AI integration, ensuring adherence to ethical standards, safeguarding sensitive information, and fostering advancements aligned with established goals and values.
 
 This AI Usage Policy provides clear, actionable guidance to ensure the responsible, secure, and effective use of AI tools. By following this policy, individuals can confidently leverage AI while minimizing threats to data security, privacy.
