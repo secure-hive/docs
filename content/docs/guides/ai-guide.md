@@ -192,7 +192,7 @@ When evaluating AI-related risks, consider both risks to and from AI systems. Ke
 Refer to the [Risk Management Procedure](#) for additional guidance on evaluating and mitigating AI-related risks.
 
 {{< callout context="note" title="Threat modeling in AI risk analysis" icon="outline/info-circle" >}}
-Threat modeling is critical for identifying AI threats. It helps address bias, security vulnerabilities, and adversarial behavior proactively.
+Threat modeling is critical for identifying AI threats. It helps address bias, security vulnerabilities, and adversarial behavior proactively. For insights into AI risk management, explore resources like [MIT's AI Risk Initiative](https://airisk.mit.edu/).
 {{< /callout >}}
 
 ## Feedback
