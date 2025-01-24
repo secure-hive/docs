@@ -14,11 +14,6 @@ seo:
   noindex: false # false (default) or true
 ---
 
-{{< details "TLDR" open >}}
-Threat modeling is a proactive way to spot and address potential security risks in systems, applications, and data. Much like being cautious when driving, it helps you identify and mitigate dangers early on. This process emphasizes collaboration, measurable outcomes (like reducing remediation time by a certain percentage), and the importance of addressing threats before they become real issues. By mapping where trust boundaries exist and focusing on areas of greatest impact, threat modeling ensures your most critical assets stay secure and adaptable to evolving threats.
-{{< /details >}}
-
-## Understanding threat modeling
 Threat modeling is a structured approach to identifying and addressing potential risks to systems, applications, and data. In everyday life, we engage in a form of threat modeling all the time. For example, when driving, you assess potential risks—like other cars, weather conditions, or pedestrians—and take steps to avoid accidents. Similarly, in cybersecurity, threat modeling helps identify vulnerabilities and plan defenses to mitigate them effectively.
 
 By fostering collaboration and focusing on measurable outcomes, it ensures that critical assets are effectively safeguarded. For example, measurable outcomes might include reducing the average time to remediate identified vulnerabilities by 30% or achieving a specific improvement in system uptime through proactive threat management. It provides a proactive framework for uncovering vulnerabilities and implementing safeguards to protect critical assets. By addressing threats early, threat modeling helps prevent issues before they arise, delivering measurable security improvements.
@@ -26,7 +21,6 @@ By fostering collaboration and focusing on measurable outcomes, it ensures that 
 ## Elevating security through actionable threat modeling
 
 This approach aligns with the principles of the [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/), which emphasizes integrating security into the design process. These principles ensure that threat modeling remains practical, actionable, and aligned with overarching security goals.
-
 
 ## Why threat modeling matters
 
@@ -47,7 +41,6 @@ Working together to brainstorm risks ensures that no known critical threats are 
 
 This collaborative approach ensures resources are directed to address the most pressing challenges effectively. This approach ensures resources are directed where they are needed most, providing efficient and effective risk management.
 
-
 ## Key information required for threat modeling
 
 To perform threat modeling effectively, specific details about the system, product, or service are needed:
@@ -64,7 +57,6 @@ To perform threat modeling effectively, specific details about the system, produ
   - Include spoofing prevention mechanisms.  
   - Outline denial-of-service detection and monitoring capabilities.  
 - **Processing Records**: Ensure logging and data flow details are included for compliance and auditing.
-
 
 ## Understanding trust boundaries
 
