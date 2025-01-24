@@ -41,11 +41,11 @@ For instance, when applied to a legacy application, threat modeling can reveal o
 - Systems remain resilient as they adapt and evolve.  
 - No threat is considered too far-fetched. Every possibility is acknowledged, and mutual responsibility is emphasized in prioritizing risks based on their potential impact and likelihood.
 
-{{< callout tip title="Collaborative brainstorming" icon="outline/lightbulb" >}}
+{{< callout tip title="Collaborative brainstorming" icon="outline/rocket" >}}
 Working together to brainstorm risks ensures that no critical threats are overlooked. This process draws on diverse perspectives, which helps uncover potential risks that might otherwise be missed.
 {{< /callout >}}
 
-{{< callout tip title="Tip" icon="outline/lightbulb" >}}
+{{< callout tip title="Tip" icon="outline/rocket" >}}
 Consider brainstorming possible risks collaboratively to ensure no critical threats are overlooked. Collaboration helps uncover perspectives that might otherwise be missed.
 {{< /callout >}}
 
