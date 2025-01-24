@@ -41,12 +41,8 @@ For instance, when applied to a legacy application, threat modeling can reveal o
 - Systems remain resilient as they adapt and evolve.  
 - No threat is considered too far-fetched. Every possibility is acknowledged, and mutual responsibility is emphasized in prioritizing risks based on their potential impact and likelihood.
 
-{{< callout tip title="Collaborative brainstorming" icon="outline/rocket" >}}
-Working together to brainstorm risks ensures that no critical threats are overlooked. This process draws on diverse perspectives, which helps uncover potential risks that might otherwise be missed.
-{{< /callout >}}
-
-{{< callout tip title="Tip" icon="outline/rocket" >}}
-Consider brainstorming possible risks collaboratively to ensure no critical threats are overlooked. Collaboration helps uncover perspectives that might otherwise be missed.
+{{< callout context="tip" title="Collaborative brainstorming" icon="outline/rocket" >}}
+Working together to brainstorm risks ensures that no known critical threats are overlooked. This process draws on diverse perspectives, which helps uncover potential risks that might otherwise be missed.
 {{< /callout >}}
 
 This collaborative approach ensures resources are directed to address the most pressing challenges effectively. This approach ensures resources are directed where they are needed most, providing efficient and effective risk management.
@@ -86,16 +82,11 @@ By mapping trust boundaries in diagrams such as Data Flow Diagrams (DFDs), it be
 - Define security requirements at critical points.  
 - Prioritize mitigations for high-risk transitions.
 
-{{< callout note title="Understanding trust boundaries" icon="outline/info-circle" >}}
-Consider this example: sharing personal data with a trusted friend versus a stranger. With a friend, you share freely; with a stranger, you protect sensitive information. Trust boundaries in systems operate similarly, requiring safeguards when crossing levels of trust.
-{{< /callout >}}
-
-{{< callout note title="Note" icon="outline/info-circle" >}}
-A trust boundary example: Sharing personal data with a friend versus a stranger. With friends, you share more freely; with strangers, you add protections like withholding sensitive details. Trust boundaries in systems work the same way.
+{{< callout context="note" title="Understanding trust boundaries" icon="outline/info-circle" >}}
+Consider this example: sharing personal data with a friend versus a stranger. With friends, you share more freely; with strangers, you add protections like withholding sensitive details. Trust boundaries in systems work the same way.
 {{< /callout >}}
 
 For example, a trust boundary may exist between a user-facing web application and an internal database it accesses. Proper controls, such as authentication and encryption, must be in place to ensure data integrity and restrict unauthorized access when crossing this boundary.
-
 
 ## What is the difference between threat modeling and threat analysis?
 
@@ -110,7 +101,6 @@ In essence:
 
 Both approaches complement one another to create a robust security framework.
 
-
 ## How risk factors into threat modeling
 
 Risk is at the core of the threat modeling process. Identified threats are assessed for:
@@ -120,7 +110,6 @@ Risk is at the core of the threat modeling process. Identified threats are asses
 
 By combining these factors, risks can be prioritized, ensuring that resources are allocated effectively to mitigate the most significant risks first. Documenting these risks in a risk register provides visibility and accountability, making risk management an ongoing and actionable process.
 
-
 ## Documenting the threat modeling process
 
 Threat modeling can be documented using one of two approaches:
@@ -128,11 +117,9 @@ Threat modeling can be documented using one of two approaches:
 - **In code**: When integrated into development workflows, tools like [Threagile](https://github.com/Threagile/threagile) provide a seamless way to generate and manage threat models directly within the codebase. This approach supports clarity by embedding threat modeling directly into the development process and ensures collaboration between developers and security professionals.  
 - **Using dedicated tools**: Platforms like [IriusRisk Community Edition](https://www.iriusrisk.com/community) offer structured templates and collaboration features for documenting and tracking threat models effectively. These tools enhance clarity by providing standardized formats and foster collaboration through shared access and reporting capabilities.
 
-
 ## Making threat modeling actionable
 
 The outputs of threat modeling must feed directly into a risk register, ensuring identified risks are tracked, prioritized, and mitigated. This connection ensures threat modeling aligns with broader risk management processes, providing clear and measurable outcomes.
-
 
 ## Steps in threat modeling
 
@@ -144,7 +131,6 @@ A structured process ensures thorough and efficient threat modeling:
 4. **Prioritize risks**: Focus on high-impact and high-likelihood threats.  
 5. **Design mitigations**: Develop safeguards to address prioritized risks.
 
-
 ## Tools and techniques
 
 Effective threat modeling relies on simple and clear techniques:
@@ -153,7 +139,6 @@ Effective threat modeling relies on simple and clear techniques:
 - **Attack Trees**: Break down potential attacker objectives into hierarchical steps, showing how threats could materialize and what conditions would enable them.  
 - **STRIDE**: A systematic method for identifying six key threat categories: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege. STRIDE is applicable to any team and is particularly beneficial for those new to threat modeling due to its straightforward approach. It simplifies the process by categorizing threats into six distinct areas, making it easy to identify and address specific vulnerabilities without requiring extensive prior experience. However, STRIDE’s generality can sometimes overlook nuanced or highly specific risks, making it less effective for advanced threat scenarios.  
 - **PASTA (Process for Attack Simulation and Threat Analysis)**: A risk-centric methodology that models threats based on attack simulations. PASTA is most suited for more established teams with mature risk management processes, as it provides detailed insights into business impact and strategic risks. However, PASTA can be resource-intensive, requiring significant time and expertise to implement effectively. Break down potential attacker objectives into smaller, manageable steps, making it easier to identify vulnerabilities and develop mitigations.
-
 
 ## Metrics for prioritization
 
