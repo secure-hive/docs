@@ -14,7 +14,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-{{< details "TL;DR" open >}}
+{{< details "TLDR" open >}}
 Threat modeling is a proactive way to spot and address potential security risks in systems, applications, and data. Much like being cautious when driving, it helps you identify and mitigate dangers early on. This process emphasizes collaboration, measurable outcomes (like reducing remediation time by a certain percentage), and the importance of addressing threats before they become real issues. By mapping where trust boundaries exist and focusing on areas of greatest impact, threat modeling ensures your most critical assets stay secure and adaptable to evolving threats.
 {{< /details >}}
 
