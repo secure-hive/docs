@@ -42,9 +42,12 @@ Single sign-on (SSO) allows one set of credentials to access multiple systems, r
 - **Preferred methods**  
   - **Security keys (small USB-type devices)**  
     - [Yubico YubiKey C Bio FIDO Edition](https://www.yubico.com/gb/product/yubikey-bio-series/yubikey-c-bio/)  
-    - [Yubico YubiKey 5C NFC](https://www.yubico.com/gb/product/yubikey-5-series/yubikey-5c-nfc/)  
-    These require physical interaction to sign in. Each individual receives one primary key and one backup key—keep the primary key accessible and store the backup in a locked drawer or cabinet to reduce misuse if one goes missing.  
-    - Security keys are preferred over one-time passcodes.  
+    - [Yubico YubiKey 5C NFC](https://www.yubico.com/gb/product/yubikey-5-series/yubikey-5c-nfc/)
+    - These require physical interaction to sign in. Each individual receives one primary key and one backup key—keep the primary key accessible and store the backup in a locked drawer or cabinet to reduce misuse if one goes missing.  
+
+{{< callout context="tip" title="Did you know?" icon="outline/rocket" >}}
+Security keys are preferred over one-time passcodes.
+{{< /callout >}}
 
 ### App-based MFA 
 
@@ -84,7 +87,7 @@ Passphrases are preferred over traditional passwords. Use passwords only when pa
   - **Newly issued passwords**  
     Change them right after the first login  
 
-{{< callout context=“caution” title=“Change default passwords immediately” icon=“outline/key” >}}
+{{< callout context="caution" title="Change default passwords immediately" icon="outline/alert-triangle" >}}
 For instance, if you receive a new system password, update it immediately upon first use to secure your account.
 {{< /callout >}}
 
@@ -93,7 +96,7 @@ For instance, if you receive a new system password, update it immediately upon f
 Some older or external systems have outdated password requirements that we cannot modify. They may enforce rules like special characters or shorter maximum lengths.
 {{< /callout >}}
 
-{{< callout context=“danger” title=“Never share or write down passwords” icon=“outline/shield-exclamation” >}}
+{{< callout context="danger" title="Never share or write down passwords" icon="outline/alert-octagon" >}}
 Avoid revealing a password over phone, email, chat, or in writing as it may lead to a breach.
 {{< /callout >}}
 
@@ -114,7 +117,7 @@ Avoid revealing a password over phone, email, chat, or in writing as it may lead
     - Unsecured websites (sites not using HTTPS, which encrypts data in transit)  
   - Uses role-based access controls (RBAC) for safe sharing  
 
-{{< callout context=“note” title=“Secure item sharing with email verification” icon=“outline/mail-check” >}}
+{{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
 Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
 {{< /callout >}}
 
@@ -123,12 +126,12 @@ Items can be shared with anyone, but recipients must verify their email address 
   
 - **Storage** Print codes and keep them secured. Storing them digitally increases exposure.  
 
-{{< callout context=“tip” title=“How to store printed recovery codes” icon=“outline/document-duplicate” >}}
+{{< callout context="tip" title="How to store printed recovery codes" icon="outline/rocket" >}}
 Keep printed recovery codes in a locked drawer to ensure they are accessible when needed without digital vulnerabilities.
 {{< /callout >}}
   
-{{< callout context=“tip” title=“Regain access to locked-out accounts” icon=“outline/refresh” >}}
-Locked-out accounts Use a backup security key, printed recovery codes, or a recovery key (if provided).
+{{< callout context="tip" title="How to regain access to locked accounts" icon="outline/rocket" >}}
+Use a backup security key, printed recovery codes, or a recovery key (if provided).
 {{< /callout >}}
 
 ## Creating and managing temporary credentials
@@ -149,17 +152,12 @@ Locked-out accounts Use a backup security key, printed recovery codes, or a reco
 1. Reset credentials through the system’s recovery process.  
 2. Notify security based on the [incident response plans](#incident-response-plans).  
 3. Watch for unusual account behavior.  
-   *If you notice unfamiliar login attempts, immediately follow these steps to secure your account.*
 
 ## Tracking resets and credentials 
   If passwords are forgotten, MFA is inaccessible, or a security key is lost, file a ticket in the [Access Requests Project](#access-requests-project). This ensures a recorded audit trail.  
-  *Creating a ticket helps us track and respond to your requests efficiently.*
   
-- **Verification**  
-  A video call is mandatory before resetting credentials to confirm identity.  
-
-{{< callout context=“note” title=“Secure account recovery with ownership verification” icon=“outline/shield-check” >}}
-Requiring a video call ensures that only the rightful owner can regain access, protecting your account from unauthorized resets.
+{{< callout context="note" title="Secure account recovery with ownership verification" icon="outline/info-circle" >}}
+A video call is mandatory before resetting credentials to confirm identity. Requiring a video call ensures that only the rightful owner can regain access, protecting your account from unauthorized resets.
 {{< /callout >}}
   
 - **Tracking**  
@@ -175,7 +173,7 @@ Requiring a video call ensures that only the rightful owner can regain access, p
 - This profile’s password must differ from the user’s standard account.  
 - Admin profiles follow the same MFA rules.  
 
-{{< callout context=“tip” title=“Separate admin accounts from standard accounts” icon=“outline/user-cog” >}}
+{{< callout context="tip" title="Separate admin accounts from standard accounts" icon="outline/rocket" >}}
 Separating admin accounts ensures that high-level access remains secure even if a standard account is compromised.
 {{< /callout >}}
 
@@ -184,7 +182,7 @@ Separating admin accounts ensures that high-level access remains secure even if 
     
 - **Expiring tokens** Tokens must expire within 90 days, minimizing harm if any token is leaked.  
 
-{{< callout context=“tip” title=“Use short-lived tokens for added security” icon=“outline/clock” >}}
+{{< callout context="tip" title="Use short-lived tokens for added security" icon="outline/rocket" >}}
 Short-lived tokens reduce the window of opportunity for unauthorized use if a token is compromised. For further details, see the [SDL policy](#sdl-policy).
 {{< /callout >}}
 
