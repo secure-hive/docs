@@ -14,7 +14,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Credentials—such as passwords, passphrases, passkeys, and security keys—stand between critical data and those who may attempt to exploit it. A single weak or mishandled credential can expose systems to theft or misuse. When we follow these guidelines, everyone contributes to protecting not only our environment but also each individual's sense of security and peace of mind.
+Credentials—such as passwords, passphrases, passkeys, and security keys—stand between critical data and those who may attempt to exploit it. A single weak or mishandled credential can expose systems to theft or misuse.This policy aims to ensure everyone contributes to protecting not only our and clients environments but also each individual's sense of security and peace of mind.
 
 ## Our identity providers and single sign-on (SSO)
 
@@ -23,7 +23,7 @@ Credentials—such as passwords, passphrases, passkeys, and security keys—stan
 - All newly acquired systems must support single sign-on (SSO) and approved MFA methods.
 {{< /callout >}}
 
-Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the risk of juggling multiple logins.
+Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the juggling of multiple logins.
 
 - **Apple**: Internal systems  
 - **Google**: Client-facing systems  
@@ -83,11 +83,12 @@ Passphrases are preferred over traditional passwords. Use passwords only when pa
   - **Alphanumeric focus**: Emphasize length rather than forcing special characters  
   - **No reuse**: The last 20 passwords cannot be repeated  
   - **No hints or security questions** they are guessable, public, and simple to bypass.
-    {{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
+{{< /details >}} 
+
+{{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
 If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
 {{< /callout >}}
 
-{{< /details >}}  
 
 {{< callout context="caution" title="Password requirements for legacy systems" icon="outline/alert-triangle" >}}
 Some older or external systems have outdated password requirements that we cannot modify. They may enforce rules like special characters or shorter maximum lengths.
@@ -97,32 +98,37 @@ Some older or external systems have outdated password requirements that we canno
 Avoid revealing a password over phone, email, chat, or in writing as it may lead to a breach.
 {{< /callout >}}
 
-## Password manager configuration
+## Password manager deployment
+{{< details "What is the approved password manager?" >}}
 - **Approved tool** [1Password](https://1password.com/) is installed on managed devices for credential storage and management.
-{{< callout context="caution" title="Password requirements for legacy systems" icon="outline/alert-triangle" >}}
+  {{< /details >}}
+  
+{{< callout context="caution" title="Password management on personal devices" icon="outline/alert-triangle" >}}
  If you use a personal device for work, installation of the password manager and browser-based identity threat detection and response (ITDR) system 
 is required.
 {{< /callout >}}
 
-- **Shared vault restrictions**
-
+{{< details "Shared vault restrictions" >}}
 - Printing,
 - Exporting, or
 - deleting items, preventing offline copies or accidental removals. 
 
 This is verified with the password managers reporting feature.
+{{< /details >}} 
 
 - **Browser extension** Installed by default on managed devices
-- **Functions**  
+{{< details "Functions" >}}  
   - Generates unique passwords or passphrases  
   - Creates temporary credentials  
   - Alerts for weak or reused credentials
   - Uses role-based access controls (RBAC) for controlled sharing  
-  
-- **Detection of**  
+  {{< /details >}}
+
+{{< details "Detection features" >}}  
     - Compromised websites  
     - Vulnerable passwords (those found in known data breaches)  
     - Unsecured websites (sites not using HTTPS, which encrypts data in transit)  
+  {{< /details >}}
 
 {{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
 Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
@@ -149,7 +155,7 @@ Keep printed recovery codes in a locked drawer to ensure they are accessible whe
 ## Handling failed logins, account suspension, and lockouts
 - Ten unsuccessful login attempts will lock the account.  
 - An administrator must unlock it manually.  
-- After an account has been suspended for 90 days, it is automatically deleted.
+- After an account has been suspended for **90 days**, it is automatically deleted.
 
 ## Compromised credentials: immediate steps
 1. Reset credentials through the system’s recovery process.  
@@ -157,13 +163,13 @@ Keep printed recovery codes in a locked drawer to ensure they are accessible whe
 3. Watch for unusual account behavior.  
 
 ## Tracking resets and credentials 
-  If passwords are forgotten, MFA is inaccessible, or a security key is lost, file a ticket in the [Access Requests Project](#access-requests-project). This ensures a recorded audit trail.  
+  - **Lost MFA** If passwords are forgotten, MFA is inaccessible, or a security key is lost, file a ticket in the [Access Requests Project](#access-requests-project). 
+  - **Label tickets** All resets are logged and tagged with the label 'reset'
   
 {{< callout context="note" title="How to confirm someones identity" icon="outline/info-circle" >}}
 A video call is mandatory before resetting credentials to confirm identity. Requiring a video call ensures that only the rightful owner can regain access, protecting your account from unauthorized resets.
 {{< /callout >}}
   
-- **Tracking** All resets are logged in the [Access Requests Project](#access-requests-project).
 
 ## Shared accounts and non-human identities
 - Used only for non-human identities (such as automated scripts or software services).  
@@ -181,7 +187,7 @@ Separating admin accounts ensures that high-level access remains secure even if 
 
 ## Credential managment for Developers
 - **Secrets manager** Keep credentials, tokens, and keys in a keystore, not on-device, to minimize exposure if lost or stolen.  
-- **Expiring tokens** Tokens must expire within 90 days, minimizing harm if any token is leaked.  
+- **Expiring tokens** Tokens must expire within **90 days**, minimizing harm if any token is leaked.  
 
 {{< callout context="tip" title="Use short-lived tokens for added security" icon="outline/rocket" >}}
 Short-lived tokens reduce the window of opportunity for unauthorized use if a token is compromised. For further details, see the [SDL policy](#sdl-policy).
