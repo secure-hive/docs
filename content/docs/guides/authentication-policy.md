@@ -46,11 +46,7 @@ Single sign-on (SSO) allows one set of credentials to access multiple systems, r
     These require physical interaction to sign in. Each individual receives one primary key and one backup key—keep the primary key accessible and store the backup in a locked drawer or cabinet to reduce misuse if one goes missing.  
     - Security keys are preferred over one-time passcodes.  
 
-{{< callout context=“tip” title=“Keep a backup YubiKey for account access” icon=“outline/lock-closed” >}}
-For example, if your YubiKey is lost, having a backup key ensures you can still access your accounts without delay.
-{{< /callout >}}
-
-  ### App-based MFA 
+### App-based MFA 
 
 Use only [Ente Auth](https://ente.io/auth/) for generating one-time codes. Ente Auth is deployed to any bring-your-own-device (BYOD) or company phone, as explained in the [centralized security with the password manager](#centralized-security-with-the-password-manager).
 
