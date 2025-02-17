@@ -23,13 +23,11 @@ Credentials—such as passwords, passphrases, passkeys, and security keys—stan
 - All newly acquired systems must support single sign-on (SSO) and approved MFA methods.
 {{< /callout >}}
 
+Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the risk of juggling multiple logins.
+
 - **Apple**: Internal systems  
 - **Google**: Client-facing systems  
 - **GitHub**: Developer tools and workflows 
-
-{{< details "What is SSO?" open >}}
-Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the risk of juggling multiple logins.
-{{< /details >}}
 
 ## MFA and passkeys
 
@@ -38,13 +36,14 @@ Single sign-on (SSO) allows one set of credentials to access multiple systems, r
 - Passkeys replace passwords with biometrics or device-based authentication, offering a more streamlined and secure login experience.
 {{< /callout >}}
 
-##v MFA rules
+### MFA methods
 
-### Preferred methods 
-  - **Security keys (small USB-type devices)**  
-    - [Yubico YubiKey C Bio FIDO Edition](https://www.yubico.com/gb/product/yubikey-bio-series/yubikey-c-bio/)  
-    - [Yubico YubiKey 5C NFC](https://www.yubico.com/gb/product/yubikey-5-series/yubikey-5c-nfc/)
-    - Security keys require physical interaction to sign in. Each individual receives one primary key and one backup key—keep the primary key accessible and store the backup in a locked drawer or cabinet to reduce misuse if one goes missing.  
+#### Security keys (small USB-type devices)
+
+Security keys require physical interaction to sign in. Each individual receives one primary key and one backup key—keep the primary key accessible and store the backup in a locked drawer or cabinet to reduce misuse if one goes missing.  
+
+- [Yubico YubiKey C Bio FIDO Edition](https://www.yubico.com/gb/product/yubikey-bio-series/yubikey-c-bio/)  
+- [Yubico YubiKey 5C NFC](https://www.yubico.com/gb/product/yubikey-5-series/yubikey-5c-nfc/)
 
 {{< callout context="tip" title="Did you know?" icon="outline/rocket" >}}
 Security keys are preferred over App-based one-time passcodes.
@@ -52,7 +51,7 @@ Security keys are preferred over App-based one-time passcodes.
 
 #### App-based MFA 
 
-Use only [Ente Auth](https://ente.io/auth/) for generating one-time codes. Ente Auth is deployed to any bring-your-own-device (BYOD) or company phone, as explained in the [centralized security with the password manager](#centralized-security-with-the-password-manager).
+Use only [Ente Auth](https://ente.io/auth/) for generating one-time codes. Ente Auth is deployed to any bring-your-own-device (BYOD) or company phone, as explained in the [Mobile device policy](#centralized-security-with-the-password-manager).
 
 #### Prohibited MFA 
   {{< callout context="danger" title="Avoid SMS or phone call-based MFA" icon="outline/alert-octagon" >}}
@@ -79,19 +78,16 @@ Storing a password or passphrase with its MFA factor (passkey, code, or security
 ## Passwords and passphrases
 Passphrases are preferred over traditional passwords. Use passwords only when passphrases are not an option.
 
-- **Requirements**  
+{{< details "Requirements" open >}}
   - **Length**: 20–100 characters (letters, numbers, symbols, or emojis)  
   - **Alphanumeric focus**: Emphasize length rather than forcing special characters  
   - **No reuse**: The last 20 passwords cannot be repeated  
-  - **No hints or security questions**  
-    - If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
-  - **Newly issued passwords**  
-    Change them right after the first login  
-
-{{< callout context="caution" title="Change default passwords immediately" icon="outline/alert-triangle" >}}
-For instance, if you receive a new system password, update it immediately upon first use to secure your account.
+  - **No hints or security questions** they are guessable, public, and simple to bypass.
+    {{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
+If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
 {{< /callout >}}
 
+{{< /details >}}  
 
 {{< callout context="caution" title="Password requirements for legacy systems" icon="outline/alert-triangle" >}}
 Some older or external systems have outdated password requirements that we cannot modify. They may enforce rules like special characters or shorter maximum lengths.
@@ -101,15 +97,21 @@ Some older or external systems have outdated password requirements that we canno
 Avoid revealing a password over phone, email, chat, or in writing as it may lead to a breach.
 {{< /callout >}}
 
-## Centralized security with the password manager
+## Password manager configuration
 - **Approved tool** [1Password](https://1password.com/) is installed on managed devices for credential storage and management.
-- 
 {{< callout context="caution" title="Password requirements for legacy systems" icon="outline/alert-triangle" >}}
  If you use a personal device for work, installation of the password manager and browser-based identity threat detection and response (ITDR) system 
 is required.
 {{< /callout >}}
 
-- **Shared vaults** Shared vaults in 1Password do not allow printing, exporting, or deleting items, preventing offline copies or accidental removals. 
+- **Shared vault restrictions**
+
+- Printing,
+- Exporting, or
+- deleting items, preventing offline copies or accidental removals. 
+
+This is verified with the password managers reporting feature.
+
 - **Browser extension** Installed by default on managed devices
 - **Functions**  
   - Generates unique passwords or passphrases  
@@ -161,8 +163,7 @@ Keep printed recovery codes in a locked drawer to ensure they are accessible whe
 A video call is mandatory before resetting credentials to confirm identity. Requiring a video call ensures that only the rightful owner can regain access, protecting your account from unauthorized resets.
 {{< /callout >}}
   
-- **Tracking**  
-  All resets are logged in the [Access Requests Project](#access-requests-project).
+- **Tracking** All resets are logged in the [Access Requests Project](#access-requests-project).
 
 ## Shared accounts and non-human identities
 - Used only for non-human identities (such as automated scripts or software services).  
@@ -179,8 +180,7 @@ Separating admin accounts ensures that high-level access remains secure even if 
 {{< /callout >}}
 
 ## Credential managment for Developers
-- **Secrets manager** All credentials, tokens, and keys must not be stored on-device, limiting access and enabling quick updates.  
-    
+- **Secrets manager** Keep credentials, tokens, and keys in a keystore, not on-device, to minimize exposure if lost or stolen.  
 - **Expiring tokens** Tokens must expire within 90 days, minimizing harm if any token is leaked.  
 
 {{< callout context="tip" title="Use short-lived tokens for added security" icon="outline/rocket" >}}
