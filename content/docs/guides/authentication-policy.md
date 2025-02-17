@@ -23,7 +23,7 @@ All identity provider accounts have multi-factor authentication (MFA) enabled to
 All newly acquired systems must support single sign-on (SSO) and approved MFA methods.
 {{< /callout >}}
 
-{{< details "What is SSO?" >}}
+{{< details "What is SSO?" open >}}
 Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the risk of juggling multiple logins.
 
 - **Apple**: Internal systems  
@@ -51,7 +51,8 @@ For example, if your YubiKey is lost, having a backup key ensures you can still 
 {{< /callout >}}
 
   ### App-based MFA 
-    Use only [Ente Auth](https://ente.io/auth/) for generating one-time codes. Ente Auth is deployed to any bring-your-own-device (BYOD) or company phone, as explained in the [centralized security with the password manager](#centralized-security-with-the-password-manager).
+
+Use only [Ente Auth](https://ente.io/auth/) for generating one-time codes. Ente Auth is deployed to any bring-your-own-device (BYOD) or company phone, as explained in the [centralized security with the password manager](#centralized-security-with-the-password-manager).
 
 ### Prohibited  
   {{< callout context="danger" title="Avoid SMS or phone call-based MFA" icon="outline/alert-octagon" >}}
