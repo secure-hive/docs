@@ -115,7 +115,7 @@ If you use a personal device for work, installation of the password manager and 
 This is verified with the password managers reporting feature.
 {{< /details >}} 
 
-- {{< details "Functions" >}}  
+{{< details "Functions" >}}  
   - Generates unique passwords or passphrases  
   - Creates temporary credentials  
   - Alerts for weak or reused credentials
