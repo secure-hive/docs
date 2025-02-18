@@ -14,13 +14,13 @@ seo:
   noindex: false # false (default) or true
 ---
 
-Credentials—such as passwords, passphrases, passkeys, and security keys—stand between critical data and those who may attempt to exploit it. A single weak or mishandled credential can expose systems to theft or misuse.This policy aims to ensure everyone contributes to protecting not only our and clients environments but also each individual's sense of security and peace of mind.
+Credentials—such as passwords, passphrases, passkeys, and security keys—stand between sensitive data and those who want to exploit it. A single weak or mishandled credential can expose systems to theft or misuse. Protecting credentials means protecting what matters most.
 
 ## Our identity providers and single sign-on (SSO)
 
 {{< callout context="note" title="MFA is enabled by default" icon="outline/check-circle" >}}
-- All identity provider accounts have multi-factor authentication (MFA) enabled to strengthen security.  
-- All newly acquired systems must support single sign-on (SSO) and approved MFA methods.
+- All identity providers have multi-factor authentication (MFA) enabled by default to reduce the threat of compromised credentials.  
+- All newly acquired services must support single sign-on (SSO) and approved MFA methods.
 {{< /callout >}}
 
 Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the juggling of multiple logins.
@@ -40,7 +40,7 @@ Single sign-on (SSO) allows one set of credentials to access multiple systems, r
 
 #### Security keys (small USB-type devices)
 
-Security keys require physical interaction to sign in. Each individual receives one primary key and one backup key—keep the primary key accessible and store the backup in a locked drawer or cabinet to reduce misuse if one goes missing.  
+Security keys require physical interaction to sign in. Each individual receives one primary key and one backup key—keep the primary key accessible and store the backup in a locked drawer or cabinet to gain access to systems and services in an emergency.  
 
 - [Yubico YubiKey C Bio FIDO Edition](https://www.yubico.com/gb/product/yubikey-bio-series/yubikey-c-bio/)  
 - [Yubico YubiKey 5C NFC](https://www.yubico.com/gb/product/yubikey-5-series/yubikey-5c-nfc/)
@@ -55,7 +55,7 @@ Use only [Ente Auth](https://ente.io/auth/) for generating one-time codes. Ente 
 
 #### Prohibited MFA 
   {{< callout context="danger" title="Avoid SMS or phone call-based MFA" icon="outline/alert-octagon" >}}
-  Text messages or phone calls are vulnerable to interception and do not meet required security standards.
+  Text messages or voice calls are vulnerable to interception and do not meet required security standards.
   {{< /callout >}}
 
 #### Biometric authentication
@@ -68,11 +68,11 @@ Only Apple (Face ID, Touch ID), Google (Android Biometric), and Yubico (biometri
 Passkeys are strongly recommended over passphrases. Do not store them on personal or company devices or browsers. Keep them in the approved password manager or on a physical security key.
 
 {{< callout context="note" title="Check system compatibility" icon="outline/info-circle" >}}
-See the [passkeys directory](https://passkeys.directory/) for systems that allow passkeys and steps to enable them.
+See the [passkeys directory](https://passkeys.directory/) for services that allow passkeys and steps to enable them.
 {{< /callout >}}
 
 {{< callout context="caution" title="Keep factors separate" icon="outline/alert-triangle" >}}
-Storing a password or passphrase with its MFA factor (passkey, code, or security key) in one place weakens multi-factor protection. Keeping them apart helps maintain stronger security.
+Storing a password or passphrase with its MFA factor (passkey or one-time code) in one place weakens multi-factor protection. Keeping them apart helps maintain stronger security.
 {{< /callout >}}
 
 ## Passwords and passphrases
@@ -91,7 +91,7 @@ If required, generate passphrase answers and store them in the password manager.
 
 
 {{< callout context="caution" title="Password requirements for legacy systems" icon="outline/alert-triangle" >}}
-Some older or external systems have outdated password requirements that we cannot modify. They may enforce rules like special characters or shorter maximum lengths.
+Some older services have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
 {{< /callout >}}
 
 {{< callout context="danger" title="Never share or write down passwords" icon="outline/alert-octagon" >}}
@@ -100,12 +100,11 @@ Avoid revealing a password over phone, email, chat, or in writing as it may lead
 
 ## Password manager deployment
 {{< details "What is the approved password manager?" >}}
-- **Approved tool** [1Password](https://1password.com/) is installed on managed devices for credential storage and management.
-  {{< /details >}}
+[1Password](https://1password.com/) app, cli and browser extension is installed by default on managed devices for credential storage and management.
+{{< /details >}}
   
 {{< callout context="caution" title="Password management on personal devices" icon="outline/alert-triangle" >}}
- If you use a personal device for work, installation of the password manager and browser-based identity threat detection and response (ITDR) system 
-is required.
+If you use a personal device for work, installation of the password manager and the browser-based identity threat detection and response (ITDR) plugin is required.
 {{< /callout >}}
 
 {{< details "Shared vault restrictions" >}}
@@ -116,19 +115,18 @@ is required.
 This is verified with the password managers reporting feature.
 {{< /details >}} 
 
-- **Browser extension** Installed by default on managed devices
-{{< details "Functions" >}}  
+- {{< details "Functions" >}}  
   - Generates unique passwords or passphrases  
   - Creates temporary credentials  
   - Alerts for weak or reused credentials
-  - Uses role-based access controls (RBAC) for controlled sharing  
-  {{< /details >}}
+  - Uses role-based access controls (RBAC) for controlled sharing
+  - {{< /details >}}
 
 {{< details "Detection features" >}}  
     - Compromised websites  
     - Vulnerable passwords (those found in known data breaches)  
     - Unsecured websites (sites not using HTTPS, which encrypts data in transit)  
-  {{< /details >}}
+{{< /details >}}
 
 {{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
 Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
@@ -150,11 +148,11 @@ Keep printed recovery codes in a locked drawer to ensure they are accessible whe
 
 ## Idle sessions and default accounts
 - **Lock-out** After 10 minutes of inactivity, a login session will prompt re-authentication to prevent misuse of an unattended device.
-- **Default credentials** During initial setup, disable or change any default system accounts or passwords right away.
+- **Default credentials** During initial setup, disable or change any default system accounts or passwords on first login.
 
 ## Handling failed logins, account suspension, and lockouts
 - Ten unsuccessful login attempts will lock the account.  
-- An administrator must unlock it manually.  
+- An administrator must unlock it **manually**.  
 - After an account has been suspended for **90 days**, it is automatically deleted.
 
 ## Compromised credentials: immediate steps
@@ -167,7 +165,7 @@ Keep printed recovery codes in a locked drawer to ensure they are accessible whe
   - **Label tickets** All resets are logged and tagged with the label 'reset'
   
 {{< callout context="note" title="How to confirm someones identity" icon="outline/info-circle" >}}
-A video call is mandatory before resetting credentials to confirm identity. Requiring a video call ensures that only the rightful owner can regain access, protecting your account from unauthorized resets.
+A video call is mandatory before resetting credentials to confirm someones identity. Requiring a video call ensures that only the rightful owner can regain access, protecting accounts from unauthorized resets.
 {{< /callout >}}
   
 
@@ -178,7 +176,7 @@ A video call is mandatory before resetting credentials to confirm identity. Requ
 
 ## Admin accounts and privilege separation
 - Use a dedicated admin account to safeguard elevated privileges.  
-- the account’s password must differ from the user’s standard account.  
+- The account’s password must differ from the user’s standard account.  
 - Admin accounts must follow the same MFA rules.  
 
 {{< callout context="tip" title="Separate admin accounts from standard accounts" icon="outline/rocket" >}}
@@ -187,10 +185,10 @@ Separating admin accounts ensures that high-level access remains secure even if 
 
 ## Credential managment for Developers
 - **Secrets manager** Keep credentials, tokens, and keys in a keystore, not on-device, to minimize exposure if lost or stolen.  
-- **Expiring tokens** Tokens must expire within **90 days**, minimizing harm if any token is leaked.  
+- **Expiring tokens** Tokens must expire within **90 days**, minimizing harm if any token is leaked. For further details, see the [SDL policy](#sdl-policy).  
 
 {{< callout context="tip" title="Use short-lived tokens for added security" icon="outline/rocket" >}}
-Short-lived tokens reduce the window of opportunity for unauthorized use if a token is compromised. For further details, see the [SDL policy](#sdl-policy).
+Short-lived tokens reduce the window of opportunity for unauthorized use if a token is compromised. 
 {{< /callout >}}
 
 ## Visibility through logging and monitoring
@@ -211,9 +209,9 @@ Refer to the [incident response plans](#incident-response-plans) if you suspect 
   
 - **Act promptly** Use incident response procedures if anything seems compromised.
   
-- **Separate admin credentials** Use different passwords for admin profiles to contain potential damage.
+- **Separate admin credentials** Use different passwords for admin accounts to contain potential damage.
   
-- **Session re-authentication** After 10 minutes, re-authenticate to keep systems safe if you step away.
+- **Session re-authentication** After 10 minutes, re-authenticate to keep services safe if you step away.
   
 - **Audit trails** Lockouts, resets, and shared accounts are tracked for clear oversight.
   
