@@ -78,23 +78,32 @@ Storing a password or passphrase with its MFA factor (passkey or one-time code) 
 ## Passwords and passphrases
 Use passphrases and passwords only when passkeys **aren't an option**.
 
-{{< details "Requirements" open >}}
- - **Passphrases** Preferred over passwords; must be at least 5 words
-     
-- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
-  - **Alphanumeric focus** Emphasize length rather than forcing special characters
-  - **Non-typed passwords** If not manually entered, they must be at least 65 characters
-
-- **PINs** Avoid PINs; if necessary, they must be at least 8 characters
-    
-  - **Password expiration** Change only if compromised  
+{{< details "General requirements" >}}
+- **Password expiration** Change only if compromised  
   - **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
   - **No hints or security questions** They are guessable, public, and easy to bypass  
   - **Support for Character Sets** All ASCII & Unicode supported   
   - **Password visibility** Allow toggling password visibility while typing to reduce errors  
   - **Strength meters** Provide real-time feedback to encourage stronger passwords  
   - **Rejection feedback** Explain why a password is rejected to prevent confusion and improve security
-  - **Salting & Hashing** Never store or send plaintext passwords. Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure.  
+{{< /details >}}
+
+{{< details "Passphrase requirements" >}}
+ - **Passphrases** Preferred over passwords; must be at least 5 words
+{{< /details >}}
+
+{{< details "Alphanumeric requirements" >}}     
+- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
+- **Alphanumeric focus** Emphasize length rather than forcing special characters
+- **Non-typed passwords** If not manually entered, they must be at least 65 characters
+{{< /details >}}
+
+{{< details "Pin-code requirements" >}}
+- **PINs** Avoid PINs; if necessary, they must be at least 8 characters
+{{< /details >}}
+
+{{< details "Crypographic requirements" >}}  
+  - **Salting & Hashing** Never store or send plaintext passwords. Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure. For further details, see the [cryptographic policy](#crypto-policy).  
 {{< /details >}} 
 
 {{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
@@ -110,7 +119,7 @@ Avoid revealing a password over phone, email, chat, or in writing as it may lead
 {{< /callout >}}
 
 ## Password manager deployment
-{{< details "What is the approved password manager?" >}}
+{{< details "What is the approved password manager?" open >}}
 [1Password](https://1password.com/) app, cli and browser extension is installed by default on managed devices for credential storage and management.
 {{< /details >}}
   
