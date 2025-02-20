@@ -78,45 +78,51 @@ Storing a password or passphrase with its MFA factor (passkey or one-time code) 
 ## Passwords and passphrases
 Use passphrases and passwords only when passkeys **aren't an option**.
 
+{{< callout context="danger" title="Never share or write down passwords" icon="outline/alert-octagon" >}}
+Avoid revealing a password over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+{{< /callout >}}
+
+{{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
+Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
+{{< /callout >}}
+
 {{< details "General requirements" >}}
-- **Password expiration** Change only if compromised  
-  - **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
-  - **No hints or security questions** They are guessable, public, and easy to bypass  
-  - **Support for Character Sets** All ASCII & Unicode supported   
-  - **Password visibility** Allow toggling password visibility while typing to reduce errors  
-  - **Strength meters** Provide real-time feedback to encourage stronger passwords  
-  - **Rejection feedback** Explain why a password is rejected to prevent confusion and improve security
+- **Sharing or writting down passwords** Avoid revealing a password over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+- **Transmission** Never store or send plaintext passwords
+- **Password expiration** Change only if compromised 
+- **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
+- **No hints or security questions** They are guessable, public, and easy to bypass  
+- **Support for Character Sets** All ASCII & Unicode supported   
+- **Password visibility** Allow toggling password visibility while typing to reduce errors  
+- **Strength meters** Provide real-time feedback to encourage stronger passwords  
+- **Rejection feedback** Explain why a password is rejected to prevent confusion and improve security
 {{< /details >}}
-
-{{< details "Passphrase requirements" >}}
- - **Passphrases** Preferred over passwords; must be at least 5 words
-{{< /details >}}
-
-{{< details "Alphanumeric requirements" >}}     
-- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
-- **Alphanumeric focus** Emphasize length rather than forcing special characters
-- **Non-typed passwords** If not manually entered, they must be at least 65 characters
-{{< /details >}}
-
-{{< details "Pin-code requirements" >}}
-- **PINs** Avoid PINs; if necessary, they must be at least 8 characters
-{{< /details >}}
-
-{{< details "Crypographic requirements" >}}  
-  - **Salting & Hashing** Never store or send plaintext passwords. Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure. For further details, see the [cryptographic policy](#crypto-policy).  
-{{< /details >}} 
 
 {{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
 If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
 {{< /callout >}}
 
+{{< details "Passphrase requirements" >}}
+**Passphrases** Preferred over passwords; must be at least 5 words
+{{< /details >}}
+
+{{< details "Password requirements" >}}     
+- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
+- **Alphanumeric focus** Emphasize length rather than forcing special characters
+- **Non-typed passwords** If not manually entered, they must be at least 65 characters
+{{< /details >}}
+
 {{< callout context="caution" title="Password requirements for legacy systems" icon="outline/alert-triangle" >}}
 Some older services have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
 {{< /callout >}}
 
-{{< callout context="danger" title="Never share or write down passwords" icon="outline/alert-octagon" >}}
-Avoid revealing a password over phone, email, chat, or in writing as it may lead to a breach.
-{{< /callout >}}
+{{< details "Pin-code requirements" >}}
+**Avoid PINs**; if necessary, they must be at least 8 characters
+{{< /details >}}
+
+{{< details "Crypographic requirements" >}}  
+**Salting & Hashing** Never store or send plaintext passwords. Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure. For further details, see the [cryptographic policy](#crypto-policy).  
+{{< /details >}} 
 
 ## Password manager deployment
 {{< details "What is the approved password manager?" open >}}
@@ -147,10 +153,6 @@ This is verified with the password managers reporting feature.
   - Vulnerable passwords (those found in known data breaches)  
   - Unsecured websites (sites not using HTTPS, which encrypts data in transit)  
 {{< /details >}}
-
-{{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
-Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
-{{< /callout >}}
 
 ## Backup plans: recovery codes
 - **Usage** Recovery codes are needed if neither security keys nor an MFA app is available.
