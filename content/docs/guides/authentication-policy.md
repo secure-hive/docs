@@ -96,7 +96,7 @@ See the [passkeys directory](https://passkeys.directory/) for services that allo
 ## Multi-factor authentication (MFA) 
 
 {{< callout context="tip" title="Why MFA matters" icon="outline/rocket" >}}
-- MFA adds an extra layer of protection, reducing the chance of unauthorized access if a password is compromised.  
+MFA adds an extra layer of protection, reducing the chance of unauthorized access if a password is compromised.  
 {{< /callout >}}
 
 ### MFA methods
