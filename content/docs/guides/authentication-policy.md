@@ -29,7 +29,7 @@ Single sign-on (SSO) allows one set of credentials to access multiple systems, r
 - **Google**: Client-facing systems  
 - **GitHub**: Developer tools and workflows 
 
-## MFA and passkeys
+## MFA 
 
 {{< callout context="tip" title="Why MFA and passkeys matter" icon="outline/rocket" >}}
 - MFA adds an extra layer of protection, reducing the chance of unauthorized access if a password is compromised.  
@@ -62,45 +62,53 @@ Use only [Ente Auth](https://ente.io/auth/) for generating one-time codes. Ente 
 Only Apple (Face ID, Touch ID), Google (Android Biometric), and Yubico (biometric-enabled security keys) are approved for biometric authentication because data is processed on the device itself. This approach:
 - Keeps biometric details local, improving privacy  
 - Speeds up daily access  
-- Reduces the risk of data interception  
-
-#### Passkeys
-Passkeys are strongly recommended over passphrasesand passwords. Do not store them on personal or company devices or browsers. Keep them in the approved password manager or on a physical security key.
-
-{{< callout context="note" title="Check system compatibility" icon="outline/info-circle" >}}
-See the [passkeys directory](https://passkeys.directory/) for services that allow passkeys and steps to enable them.
-{{< /callout >}}
+- Reduces the risk of data interception
 
 {{< callout context="caution" title="Keep factors separate" icon="outline/alert-triangle" >}}
 Storing a password or passphrase with its MFA factor (passkey or one-time code) in one place weakens multi-factor protection. Keeping them apart helps maintain stronger security.
 {{< /callout >}}
 
-## Passwords and passphrases
-Use passphrases and passwords only when passkeys **aren't an option**.
+## Credential requirements
 
-{{< callout context="danger" title="Never share or write down passwords" icon="outline/alert-octagon" >}}
-Avoid revealing a password over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+### General requirements
+
+{{< callout context="danger" title="Never share or write down credentials" icon="outline/alert-octagon" >}}
+Avoid revealing a credential over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+{{< /callout >}}
+
+{{< details "General requirements" >}}
+- **Sharing or writting down credentials** Avoid revealing credentials over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+- **Transmission** Never store or send plaintext credentials
+- **Credential expiration** Change only if compromised 
+- **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
+- **No hints or security questions** They are guessable, public, and easy to bypass  
+- **Support for Character Sets** All ASCII & Unicode supported   
+- **Credential visibility** Allow toggling credential visibility while typing to reduce errors  
+- **Strength meters** Provide real-time feedback to encourage stronger credentials  
+- **Rejection feedback** Explain why a credential is rejected to prevent confusion and improve security
+{{< /details >}}
+
+{{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
+If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
 {{< /callout >}}
 
 {{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
 Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
 {{< /callout >}}
 
-{{< details "General requirements" open >}}
-- **Sharing or writting down passwords** Avoid revealing a password over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
-- **Transmission** Never store or send plaintext passwords
-- **Password expiration** Change only if compromised 
-- **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
-- **No hints or security questions** They are guessable, public, and easy to bypass  
-- **Support for Character Sets** All ASCII & Unicode supported   
-- **Password visibility** Allow toggling password visibility while typing to reduce errors  
-- **Strength meters** Provide real-time feedback to encourage stronger passwords  
-- **Rejection feedback** Explain why a password is rejected to prevent confusion and improve security
-{{< /details >}}
+### Passkeys
 
-{{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
-If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
+{{< callout context="tip" title="Did you know?" icon="outline/rocket" >}}
+Choose passkeys over passphrases over passwords** Always prefer more secure methods.
 {{< /callout >}}
+
+Passkeys are strongly recommended over passphrases and passwords. Do not store them on personal or company devices or browsers. Keep them in the approved password manager or on a physical security key.
+
+{{< callout context="note" title="Check system compatibility" icon="outline/info-circle" >}}
+See the [passkeys directory](https://passkeys.directory/) for services that allow passkeys and steps to enable them.
+{{< /callout >}}
+
+### Passwords, PINs and passphrases
 
 {{< details "Passphrase requirements" >}}
 **Passphrases** Preferred over passwords; must be at least 5 words
@@ -220,7 +228,7 @@ A browser-based identity threat detection and response (ITDR) system monitors al
 Refer to the [incident response plans](#incident-response-plans) if you suspect provider-level issues or compromised credentials. Timely reporting can minimize harm and protect everyone’s data.
 
 ## Key takeaways for lasting security
-- **Passkeys over passphrases over passwords** Always prefer more secure methods to reduce vulnerabilities.
+- **Passkeys over passphrases over passwords** Always prefer more secure methods to reduce explotation.
   
 - **One password manager** Centralize all credentials with 1Password, simplifying management and quick revocation.
   
