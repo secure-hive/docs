@@ -27,13 +27,72 @@ Single sign-on (SSO) allows one set of credentials to access multiple systems, r
 
 - **Apple**: Internal systems  
 - **Google**: Client-facing systems  
-- **GitHub**: Developer tools and workflows 
+- **GitHub**: Developer tools and workflows
 
-## MFA 
+## Credential requirements
 
-{{< callout context="tip" title="Why MFA and passkeys matter" icon="outline/rocket" >}}
-- MFA adds an extra layer of protection, reducing the chance of unauthorized access if a password is compromised.  
+{{< callout context="danger" title="Never share or write down credentials" icon="outline/alert-octagon" >}}
+Avoid revealing a credential over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+{{< /callout >}}
+
+{{< details "General requirements" open >}}
+- **Sharing or writting down credentials** Avoid revealing credentials over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+- **Transmission** Never store or send plaintext credentials
+- **Credential expiration** Change only if compromised 
+- **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
+- **No hints or security questions** They are guessable, public, and easy to bypass  
+- **Support for Character Sets** All ASCII & Unicode supported   
+- **Credential visibility** Allow toggling credential visibility while typing to reduce errors  
+- **Strength meters** Provide real-time feedback to encourage stronger credentials  
+- **Rejection feedback** Explain why a credential is rejected to prevent confusion and improve security
+{{< /details >}}
+
+{{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
+If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
+{{< /callout >}}
+
+{{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
+Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
+{{< /callout >}}
+
+### Passkeys
+
+{{< callout context="tip" title="Why Passkeys matter" icon="outline/rocket" >}}
 - Passkeys replace passwords with biometrics or device-based authentication, offering a more streamlined and secure login experience.
+- Choose passkeys over passphrases over passwords. **Always** choose the more secure methods.
+{{< /callout >}}
+
+Passkeys are strongly recommended over passphrases and passwords. Do not store them on personal or company devices or browsers. Keep them in the approved password manager or on a physical security key.
+
+{{< callout context="note" title="Check system compatibility" icon="outline/info-circle" >}}
+See the [passkeys directory](https://passkeys.directory/) for services that allow passkeys and steps to enable them.
+{{< /callout >}}
+
+### Passwords, PINs and passphrases
+
+{{< details "Passphrase requirements" >}}
+**Passphrases** Preferred over passwords; must be at least 5 words
+{{< /details >}}
+
+{{< details "Password requirements" >}}     
+- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
+- **Alphanumeric focus** Emphasize length rather than forcing special characters
+- **Non-typed passwords** If not manually entered, they must be at least 65 characters
+- **Legacy services** Older services may have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
+{{< /details >}}
+
+{{< details "Pin-code requirements" >}}
+**Avoid PINs**; if necessary, they must be at least 8 characters
+{{< /details >}}
+
+{{< details "Crypographic requirements" >}}  
+**Salting & Hashing** Never store or send plaintext passwords. Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure. For further details, see the [cryptographic policy](#crypto-policy).  
+{{< /details >}} 
+
+## Multi-factor authentication (MFA) 
+
+{{< callout context="tip" title="Why MFA matters" icon="outline/rocket" >}}
+- MFA adds an extra layer of protection, reducing the chance of unauthorized access if a password is compromised.  
 {{< /callout >}}
 
 ### MFA methods
@@ -67,65 +126,6 @@ Only Apple (Face ID, Touch ID), Google (Android Biometric), and Yubico (biometri
 {{< callout context="caution" title="Keep factors separate" icon="outline/alert-triangle" >}}
 Storing a password or passphrase with its MFA factor (passkey or one-time code) in one place weakens multi-factor protection. Keeping them apart helps maintain stronger security.
 {{< /callout >}}
-
-## Credential requirements
-
-{{< callout context="danger" title="Never share or write down credentials" icon="outline/alert-octagon" >}}
-Avoid revealing a credential over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
-{{< /callout >}}
-
-{{< details "General requirements" open >}}
-- **Sharing or writting down credentials** Avoid revealing credentials over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
-- **Transmission** Never store or send plaintext credentials
-- **Credential expiration** Change only if compromised 
-- **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
-- **No hints or security questions** They are guessable, public, and easy to bypass  
-- **Support for Character Sets** All ASCII & Unicode supported   
-- **Credential visibility** Allow toggling credential visibility while typing to reduce errors  
-- **Strength meters** Provide real-time feedback to encourage stronger credentials  
-- **Rejection feedback** Explain why a credential is rejected to prevent confusion and improve security
-{{< /details >}}
-
-{{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
-If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
-{{< /callout >}}
-
-{{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
-Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
-{{< /callout >}}
-
-### Passkeys
-
-{{< callout context="tip" title="Did you know?" icon="outline/rocket" >}}
-Choose passkeys over passphrases over passwords. **Always** choose the more secure methods.
-{{< /callout >}}
-
-Passkeys are strongly recommended over passphrases and passwords. Do not store them on personal or company devices or browsers. Keep them in the approved password manager or on a physical security key.
-
-{{< callout context="note" title="Check system compatibility" icon="outline/info-circle" >}}
-See the [passkeys directory](https://passkeys.directory/) for services that allow passkeys and steps to enable them.
-{{< /callout >}}
-
-### Passwords, PINs and passphrases
-
-{{< details "Passphrase requirements" >}}
-**Passphrases** Preferred over passwords; must be at least 5 words
-{{< /details >}}
-
-{{< details "Password requirements" >}}     
-- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
-- **Alphanumeric focus** Emphasize length rather than forcing special characters
-- **Non-typed passwords** If not manually entered, they must be at least 65 characters
-- **Legacy services** Older services may have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
-{{< /details >}}
-
-{{< details "Pin-code requirements" >}}
-**Avoid PINs**; if necessary, they must be at least 8 characters
-{{< /details >}}
-
-{{< details "Crypographic requirements" >}}  
-**Salting & Hashing** Never store or send plaintext passwords. Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure. For further details, see the [cryptographic policy](#crypto-policy).  
-{{< /details >}} 
 
 ## Password manager deployment
 {{< details "What is the approved password manager?" open >}}
