@@ -25,25 +25,37 @@ Credentials—such as passwords, passphrases, passkeys, and security keys—stan
 
 Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the juggling of multiple logins.
 
-- **Apple**: Internal systems  
-- **Google**: Client-facing systems  
+- **Apple**: Internal systems
+  
+- **Google**: Client-facing systems
+  
 - **GitHub**: Developer tools and workflows
 
 ## Credential requirements
 
 {{< callout context="danger" title="Never share or write down credentials" icon="outline/alert-octagon" >}}
-Avoid revealing a credential over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+- Avoid revealing a credential over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+
+ - Never store or send plaintext passwords.
 {{< /callout >}}
 
 {{< details "General requirements" open >}}
-- **Sharing or writting down credentials** Avoid revealing credentials over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+- **Sharing or writting down credentials** Avoid revealing credentials over phone, email, chat, text messages or in writing as it may lead to a breach. **Always use the password manager sharing features**.
+
 - **Transmission** Never store or send plaintext credentials
-- **Credential expiration** Change only if compromised 
-- **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
-- **No hints or security questions** They are guessable, public, and easy to bypass  
-- **Support for Character Sets** All ASCII & Unicode supported   
-- **Credential visibility** Allow toggling credential visibility while typing to reduce errors  
-- **Strength meters** Provide real-time feedback to encourage stronger credentials  
+
+- **Credential expiration** Change only if compromised
+
+- **No reuse**: Block the last 20 passwords, or the highest number possible close to 20
+  
+- **No hints or security questions** They are guessable, public, and easy to bypass
+  
+- **Support for Character Sets** All ASCII & Unicode supported
+   
+- **Credential visibility** Allow toggling credential visibility while typing to reduce errors
+  
+- **Strength meters** Provide real-time feedback to encourage stronger credentials
+  
 - **Rejection feedback** Explain why a credential is rejected to prevent confusion and improve security
 {{< /details >}}
 
@@ -59,6 +71,7 @@ Items can be shared with anyone, but recipients must verify their email address 
 
 {{< callout context="tip" title="Why Passkeys matter" icon="outline/rocket" >}}
 - Passkeys replace passwords with biometrics or device-based authentication, offering a more streamlined and secure login experience.
+
 - Choose passkeys over passphrases over passwords. **Always** choose the more secure methods.
 {{< /callout >}}
 
@@ -71,13 +84,16 @@ See the [passkeys directory](https://passkeys.directory/) for services that allo
 ### Passwords, PINs and passphrases
 
 {{< details "Passphrase requirements" >}}
-**Passphrases** Preferred over passwords; must be at least 5 words
+**Passphrases** Must be at least 5 words
 {{< /details >}}
 
 {{< details "Password requirements" >}}     
-- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
+- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis
+  
 - **Alphanumeric focus** Emphasize length rather than forcing special characters
+
 - **Non-typed passwords** If not manually entered, they must be at least 65 characters
+
 - **Legacy services** Older services may have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
 {{< /details >}}
 
@@ -86,7 +102,7 @@ See the [passkeys directory](https://passkeys.directory/) for services that allo
 {{< /details >}}
 
 {{< details "Crypographic requirements" >}}  
-**Salting & Hashing** Never store or send plaintext passwords. Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure. For further details, see the [cryptographic policy](#crypto-policy).  
+**Salting & Hashing** Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure. For further details, see the [cryptographic policy](#crypto-policy).  
 {{< /details >}} 
 
 ## Multi-factor authentication (MFA) 
@@ -101,7 +117,8 @@ See the [passkeys directory](https://passkeys.directory/) for services that allo
 
 Security keys require physical interaction to sign in. Each individual receives one primary key and one backup key—keep the primary key accessible and store the backup in a locked drawer or cabinet to gain access to systems and services in an emergency.  
 
-- [Yubico YubiKey C Bio FIDO Edition](https://www.yubico.com/gb/product/yubikey-bio-series/yubikey-c-bio/)  
+- [Yubico YubiKey C Bio FIDO Edition](https://www.yubico.com/gb/product/yubikey-bio-series/yubikey-c-bio/)
+  
 - [Yubico YubiKey 5C NFC](https://www.yubico.com/gb/product/yubikey-5-series/yubikey-5c-nfc/)
 
 {{< callout context="tip" title="Did you know?" icon="outline/rocket" >}}
@@ -113,7 +130,7 @@ Security keys are preferred over App-based one-time passcodes.
 Use only [Ente Auth](https://ente.io/auth/) for generating one-time codes. Ente Auth is deployed to any bring-your-own-device (BYOD) or company phone, as explained in the [Mobile device policy](#centralized-security-with-the-password-manager).
 
 #### Prohibited MFA 
-  {{< callout context="danger" title="Avoid SMS or phone call-based MFA" icon="outline/alert-octagon" >}}
+  {{< callout context="danger" title="Avoid text messages or phone call-based MFA" icon="outline/alert-octagon" >}}
   Text messages or voice calls are vulnerable to interception and do not meet required security standards.
   {{< /callout >}}
 
@@ -176,13 +193,17 @@ Keep printed recovery codes in a locked drawer to ensure they are accessible whe
 - **Default credentials** During initial setup, disable or change any default system accounts or passwords on first login.
 
 ## Handling failed logins, account suspension, and lockouts
-- Ten unsuccessful login attempts will lock the account.  
-- An administrator must unlock it **manually**.  
+- Ten unsuccessful login attempts will lock the account.
+  
+- An administrator must unlock it **manually**.
+  
 - After an account has been suspended for **90 days**, it is automatically deleted.
 
 ## Compromised credentials: immediate steps
 1. Reset credentials through the system’s recovery process.  
+
 2. Notify security based on the [incident response plans](#incident-response-plans).  
+
 3. Watch for unusual account behavior.  
 
 ## Tracking resets and credentials 
