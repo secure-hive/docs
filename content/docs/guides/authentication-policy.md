@@ -27,7 +27,9 @@ Credentials—such as passwords, passphrases, passkeys, and security keys—stan
 Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the juggling of multiple logins.
 
 - **Apple** Internal systems
+
 - **Google** Client-facing systems
+
 - **GitHub** Developer tools and workflows
 
 ## Credential requirements
@@ -204,13 +206,17 @@ A video call is mandatory before resetting credentials to confirm someones ident
   
 
 ## Shared accounts and non-human identities
-- Used only for non-human identities (such as automated scripts or software services).  
-- Each non-human identity must use MFA and have a designated owner.  
+- Used only for non-human identities (such as automated scripts or software services).
+  
+- Each non-human identity must use MFA and have a designated owner.
+  
 - Tracked in the [non-human identity registry](#non-human-identity-registry).
 
 ## Admin accounts and privilege separation
-- Use a dedicated admin account to safeguard elevated privileges.  
-- The account’s password must differ from the user’s standard account.  
+- Use a dedicated admin account to safeguard elevated privileges.
+  
+- The account’s password must differ from the user’s standard account.
+  
 - Admin accounts must follow the same MFA rules.  
 
 {{< callout context="tip" title="Separate admin accounts from standard accounts" icon="outline/rocket" >}}
@@ -218,7 +224,8 @@ Separating admin accounts ensures that high-level access remains secure even if 
 {{< /callout >}}
 
 ## Credential managment for Developers
-- **Secrets manager** Keep credentials, tokens, and keys in a keystore, not on-device, to minimize exposure if lost or stolen.  
+- **Secrets manager** Keep credentials, tokens, and keys in a keystore, not on-device, to minimize exposure if lost or stolen.
+  
 - **Expiring tokens** Tokens must expire within **90 days**, minimizing harm if any token is leaked. For further details, see the [SDL policy](#sdl-policy).  
 
 {{< callout context="tip" title="Use short-lived tokens for added security" icon="outline/rocket" >}}
