@@ -19,17 +19,16 @@ Credentials—such as passwords, passphrases, passkeys, and security keys—stan
 ## Our identity providers and single sign-on (SSO)
 
 {{< callout context="note" title="MFA is enabled by default" icon="outline/check-circle" >}}
-- All identity providers have multi-factor authentication (MFA) enabled by default to reduce the threat of compromised credentials.  
+- All identity providers have multi-factor authentication (MFA) enabled by default to reduce the threat of compromised credentials.
+  
 - All newly acquired services must support single sign-on (SSO) and approved MFA methods.
 {{< /callout >}}
 
 Single sign-on (SSO) allows one set of credentials to access multiple systems, reducing the juggling of multiple logins.
 
-- **Apple**: Internal systems
-  
-- **Google**: Client-facing systems
-  
-- **GitHub**: Developer tools and workflows
+- **Apple** Internal systems
+- **Google** Client-facing systems
+- **GitHub** Developer tools and workflows
 
 ## Credential requirements
 
@@ -40,22 +39,14 @@ Single sign-on (SSO) allows one set of credentials to access multiple systems, r
 {{< /callout >}}
 
 {{< details "General requirements" open >}}
-- **Sharing or writting down credentials** Avoid revealing credentials over phone, email, chat, text messages or in writing as it may lead to a breach. **Always use the password manager sharing features**.
 
 - **Transmission** Never store or send plaintext credentials
-
 - **Credential expiration** Change only if compromised
-
 - **No reuse**: Block the last 20 passwords, or the highest number possible close to 20
-  
 - **No hints or security questions** They are guessable, public, and easy to bypass
-  
 - **Support for Character Sets** All ASCII & Unicode supported
-   
 - **Credential visibility** Allow toggling credential visibility while typing to reduce errors
-  
 - **Strength meters** Provide real-time feedback to encourage stronger credentials
-  
 - **Rejection feedback** Explain why a credential is rejected to prevent confusion and improve security
 {{< /details >}}
 
@@ -89,11 +80,8 @@ See the [passkeys directory](https://passkeys.directory/) for services that allo
 
 {{< details "Password requirements" >}}     
 - **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis
-  
 - **Alphanumeric focus** Emphasize length rather than forcing special characters
-
 - **Non-typed passwords** If not manually entered, they must be at least 65 characters
-
 - **Legacy services** Older services may have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
 {{< /details >}}
 
