@@ -70,13 +70,11 @@ Storing a password or passphrase with its MFA factor (passkey or one-time code) 
 
 ## Credential requirements
 
-### General requirements
-
 {{< callout context="danger" title="Never share or write down credentials" icon="outline/alert-octagon" >}}
 Avoid revealing a credential over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
 {{< /callout >}}
 
-{{< details "General requirements" >}}
+{{< details "General requirements" open >}}
 - **Sharing or writting down credentials** Avoid revealing credentials over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
 - **Transmission** Never store or send plaintext credentials
 - **Credential expiration** Change only if compromised 
@@ -99,7 +97,7 @@ Items can be shared with anyone, but recipients must verify their email address 
 ### Passkeys
 
 {{< callout context="tip" title="Did you know?" icon="outline/rocket" >}}
-Choose passkeys over passphrases over passwords** Always prefer more secure methods.
+Choose passkeys over passphrases over passwords. **Always** choose the more secure methods.
 {{< /callout >}}
 
 Passkeys are strongly recommended over passphrases and passwords. Do not store them on personal or company devices or browsers. Keep them in the approved password manager or on a physical security key.
