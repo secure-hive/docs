@@ -86,7 +86,7 @@ Avoid revealing a password over phone, email, chat, SMS or in writing as it may 
 Items can be shared with anyone, but recipients must verify their email address before viewing the item. Links expire after the item is viewed one time, with a maximum link lifespan of 1 day (default expiration is 1 hour).
 {{< /callout >}}
 
-{{< details "General requirements" >}}
+{{< details "General requirements" open >}}
 - **Sharing or writting down passwords** Avoid revealing a password over phone, email, chat, SMS or in writing as it may lead to a breach. **Always use the password manager sharing features**.
 - **Transmission** Never store or send plaintext passwords
 - **Password expiration** Change only if compromised 
@@ -110,11 +110,8 @@ If required, generate passphrase answers and store them in the password manager.
 - **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
 - **Alphanumeric focus** Emphasize length rather than forcing special characters
 - **Non-typed passwords** If not manually entered, they must be at least 65 characters
+- **Legacy services** Older services may have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
 {{< /details >}}
-
-{{< callout context="caution" title="Password requirements for legacy systems" icon="outline/alert-triangle" >}}
-Some older services have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
-{{< /callout >}}
 
 {{< details "Pin-code requirements" >}}
 **Avoid PINs**; if necessary, they must be at least 8 characters
