@@ -65,7 +65,7 @@ Only Apple (Face ID, Touch ID), Google (Android Biometric), and Yubico (biometri
 - Reduces the risk of data interception  
 
 #### Passkeys
-Passkeys are strongly recommended over passphrases. Do not store them on personal or company devices or browsers. Keep them in the approved password manager or on a physical security key.
+Passkeys are strongly recommended over passphrasesand passwords. Do not store them on personal or company devices or browsers. Keep them in the approved password manager or on a physical security key.
 
 {{< callout context="note" title="Check system compatibility" icon="outline/info-circle" >}}
 See the [passkeys directory](https://passkeys.directory/) for services that allow passkeys and steps to enable them.
@@ -76,19 +76,30 @@ Storing a password or passphrase with its MFA factor (passkey or one-time code) 
 {{< /callout >}}
 
 ## Passwords and passphrases
-Passphrases are preferred over traditional passwords. Use passwords only when passphrases are not an option.
+Use passphrases and passwords only when passkeys **aren't an option**.
 
 {{< details "Requirements" open >}}
-  - **Length**: 20–100 characters (letters, numbers, symbols, or emojis)  
-  - **Alphanumeric focus**: Emphasize length rather than forcing special characters  
-  - **No reuse**: The last 20 passwords cannot be repeated  
-  - **No hints or security questions** they are guessable, public, and simple to bypass.
+ - **Passphrases** Preferred over passwords; must be at least 5 words
+     
+- **Alphanumeric length**: 20–100 characters can optionally include letters, numbers, symbols, or emojis  
+  - **Alphanumeric focus** Emphasize length rather than forcing special characters
+  - **Non-typed passwords** If not manually entered, they must be at least 65 characters
+
+- **PINs** Avoid PINs; if necessary, they must be at least 8 characters
+    
+  - **Password expiration** Change only if compromised  
+  - **No reuse**: Block the last 20 passwords, or the highest number possible close to 20  
+  - **No hints or security questions** They are guessable, public, and easy to bypass  
+  - **Support for Character Sets** All ASCII & Unicode supported   
+  - **Password visibility** Allow toggling password visibility while typing to reduce errors  
+  - **Strength meters** Provide real-time feedback to encourage stronger passwords  
+  - **Rejection feedback** Explain why a password is rejected to prevent confusion and improve security
+  - **Salting & Hashing** Never store or send plaintext passwords. Use hashing with salting before storage. Passwords must not be retrievable from the server or anywhere a password is handled before being secured. Use zero-knowledge protocols or zeroization to prevent exposure.  
 {{< /details >}} 
 
 {{< callout context="danger" title="If you need to use hints or security questions" icon="outline/alert-octagon" >}}
 If required, generate passphrase answers and store them in the password manager. The same applies to data such as birthdates.  
 {{< /callout >}}
-
 
 {{< callout context="caution" title="Password requirements for legacy systems" icon="outline/alert-triangle" >}}
 Some older services have outdated password requirements that can't be controlled. These services may enforce rules such as numbers, special characters or shorter maximum lengths.
@@ -108,9 +119,9 @@ If you use a personal device for work, installation of the password manager and 
 {{< /callout >}}
 
 {{< details "Shared vault restrictions" >}}
-- Printing,
-- Exporting, or
-- deleting items, preventing offline copies or accidental removals. 
+- Printing
+- Exporting or
+- Deleting items, preventing offline copies or accidental removals. 
 
 This is verified with the password managers reporting feature.
 {{< /details >}} 
@@ -120,12 +131,12 @@ This is verified with the password managers reporting feature.
   - Creates temporary credentials  
   - Alerts for weak or reused credentials
   - Uses role-based access controls (RBAC) for controlled sharing
-  - {{< /details >}}
+  {{< /details >}}
 
 {{< details "Detection features" >}}  
-    - Compromised websites  
-    - Vulnerable passwords (those found in known data breaches)  
-    - Unsecured websites (sites not using HTTPS, which encrypts data in transit)  
+  - Compromised websites  
+  - Vulnerable passwords (those found in known data breaches)  
+  - Unsecured websites (sites not using HTTPS, which encrypts data in transit)  
 {{< /details >}}
 
 {{< callout context="note" title="Sharing externally" icon="outline/info-circle" >}}
