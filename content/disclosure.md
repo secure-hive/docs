@@ -91,7 +91,7 @@ List of any impacted vendors, versions, and relevance
 | **CSV injection without an exploit path** | Requires further conditions to be effective; not actionable on its own. |
 | **Content spoofing with no meaningful impact** | Cosmetic or visual issues without consequence for people or systems. |
 | **Vulnerabilities that require unrealistic user interaction** | Depends on unlikely behavior from people, making it impractical to address. |
-| **Automated scan outputs without manual validation** | Often inaccurate or irrelevant without human verification. |
+| **Automated scan outputs without manual validation** | Automated scans (e.g. DAST, SAST, etc.) are already performed internally and often lack value without human validation and context. |
 | **Stack traces, version banners, or benign error messages** | Informational only and do not directly affect system behavior or security. |
 | **Vulnerabilities affecting unsupported browser versions (2+ versions behind)** | Applies to outdated software that is no longer supported or used in practice. |
 
