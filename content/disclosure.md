@@ -46,27 +46,28 @@ Using Signal means:
 
 Clear, complete reports are essential to validation and resolution. Submissions must include:
 
-- **Proof of Concept (PoC)**  
-  - Step-by-step instructions  
-  - Screenshots or videos (optional but helpful)  
-  - Safe scripts or payloads with required parameters  
 
+{{< details "Proof of Concept (PoC)" >}}
+- Step-by-step instructions  
+- Screenshots or videos (optional but helpful)  
+- Safe scripts or payloads with required parameters
+{{< /details >}}
 
-- **CVSS Score & Impact**  
-  - Severity using a [CVSS calculator](https://www.first.org/cvss/calculator/4-0)  
-  - Description of the impact (e.g., privilege escalation, data exposure)  
-  - Affected components and likelihood of exploitation
-  - Any planned disclosure timelines or motivating factors
+{{< details "CVSS Score & Impact" >}}
+- Severity using a [CVSS calculator](https://www.first.org/cvss/calculator/4-0)  
+- Description of the impact (e.g., privilege escalation, data exposure)  
+- Affected components and likelihood of exploitation
+- Any planned disclosure timelines or motivating factors{{< /details >}}
 
+{{< details "Remediation Guidance (Optional)" >}}
+- Suggested mitigations or code improvements  
+- References to best practices (e.g., OWASP)  
+- Long-term security considerations
+{{< /details >}} 
 
-- **Remediation Guidance (Optional)**  
-  - Suggested mitigations or code improvements  
-  - References to best practices (e.g., OWASP)  
-  - Long-term security considerations
-
-
-- **Third-Party Involvement**  
-  - List of any impacted vendors, versions, and relevance
+{{< details "Third-Party Involvement" >}}
+List of any impacted vendors, versions, and relevance
+{< /details >}}
 
 ## Researcher responsibilities
 
@@ -78,20 +79,21 @@ Clear, complete reports are essential to validation and resolution. Submissions 
 
 ## Prohibited testing
 
-- Malware, spam, phishing, or social engineering  
-- Denial-of-service (DoS) or resource exhaustion  
-- Testing systems not owned by Secure Hive Ltd  
-- Submissions involving:
-  - Clickjacking on non-sensitive pages  
-  - CSRF on non-sensitive forms  
-  - MITM or physical access  
-  - Known vulnerable libraries without a working PoC  
-  - CSV injection without an exploit path  
-  - Content spoofing with no meaningful impact  
-  - Vulnerabilities that require unrealistic user interaction  
-  - Automated scan outputs without manual validation  
-  - Stack traces, version banners, or benign error messages  
-  - Vulnerabilities affecting unsupported browser versions (2+ versions behind)
+| Type of Testing | Reason |
+|-----------------|--------|
+| **Malware, spam, phishing, or social engineering** | Targets individuals rather than systems and may cause harm or violate legal or ethical boundaries. |
+| **Denial-of-service (DoS) or resource exhaustion** | Disrupts availability and can degrade services for people. There are also legal impacts. |
+| **Testing systems not owned by Secure Hive Ltd** | Out-of-scope targets may belong to third parties and are not authorized for testing. |
+| **Clickjacking on non-sensitive pages** | No meaningful impact if the content or actions are not sensitive. |
+| **CSRF on non-sensitive forms** | Has little to no consequence if it doesn’t affect important functionality or data. |
+| **MITM or physical access** | Assumes an unrealistic level of control by an attacker and is not relevant to typical scenarios. |
+| **Known vulnerable libraries without a working PoC** | Lacks demonstrated exploitability within the context of the environment. |
+| **CSV injection without an exploit path** | Requires further conditions to be effective; not actionable on its own. |
+| **Content spoofing with no meaningful impact** | Cosmetic or visual issues without consequence for people or systems. |
+| **Vulnerabilities that require unrealistic user interaction** | Depends on unlikely behavior from people, making it impractical to address. |
+| **Automated scan outputs without manual validation** | Often inaccurate or irrelevant without human verification. |
+| **Stack traces, version banners, or benign error messages** | Informational only and do not directly affect system behavior or security. |
+| **Vulnerabilities affecting unsupported browser versions (2+ versions behind)** | Applies to outdated software that is no longer supported or used in practice. |
 
 ## Allowed testing
 
