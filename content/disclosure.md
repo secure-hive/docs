@@ -111,13 +111,11 @@ Disclosures are prioritized, and any affected parties will be informed openly an
 
 Upon receiving a report:
 
-- Your submission will be reviewed and validated  
-- A response will be sent within **5 business days** (confirmation or follow-up questions)  
-- A disclosure timeline will be coordinated with you
-- The vulnerability will either be resolved or the risk accepted within that timeframe  
-- Once the vulnerability is resolved, public disclosure is welcome. Linking to an advisory is encouraged for recognition and community awareness. 
-- Valid reports may be acknowledged publicly (if permission is granted)
-
+1. Your submission will be reviewed and validated
+2. A response will be sent within **5 business days** (confirmation or follow-up questions)
+3. A disclosure timeline will be coordinated with you
+4. The vulnerability will either be resolved or the risk accepted within that timeframe
+5. Once the vulnerability is resolved, public disclosure is welcome. Linking to an advisory is encouraged for recognition and community awareness.
 
 {{< callout context="note" title="Disclosure response times" icon="outline/info-circle" >}}
 Response times may vary depending on the complexity and severity of the reported vulnerability. Timelines, status updates, and collaboration will be provided when appropriate.
