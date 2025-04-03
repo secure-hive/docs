@@ -67,7 +67,7 @@ Clear, complete reports are essential to validation and resolution. Submissions 
 
 {{< details "Third-Party Involvement" >}}
 List of any impacted vendors, versions, and relevance
-{< /details >}}
+{{< /details >}}
 
 ## Researcher responsibilities
 
