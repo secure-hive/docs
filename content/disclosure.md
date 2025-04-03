@@ -30,7 +30,7 @@ Disclosing privately gives time to fix and retest any disclosures, protects peop
 
 All disclosure submissions **must go through** [openbugbounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the disclosure involves intrusive testing which violates the [Open Bug Bounty project's terms of service](https://www.openbugbounty.org/terms-and-privacy/).
 
-For secure, real-time communication, join our: [Secure Hive security disclosure Signal group]([https://signal.group/#C123FakeLinkReplaceMe](https://signal.group/#CjQKIKJmK8FOpqOa5IvHXvy33EMsDXfz9qZMW6y1DKLThiFdEhAzg6FvJqdnR_vI3J2UVgD8))
+For secure, real-time communication, join our [Secure Hive security disclosure Signal group]([https://signal.group/#C123FakeLinkReplaceMe](https://signal.group/#CjQKIKJmK8FOpqOa5IvHXvy33EMsDXfz9qZMW6y1DKLThiFdEhAzg6FvJqdnR_vI3J2UVgD8))
 
 {{< callout context="note" title="Why use Signal to communicate?" icon="outline/info-circle" >}}
 Using Signal means:
@@ -111,7 +111,7 @@ Disclosures are prioritized, and any affected parties will be informed openly an
 
 Upon receiving a report:
 
-1. Your submission will be reviewed and validated
+1. Your submission will be triaged and validated
 2. A response will be sent within **5 business days** (confirmation or follow-up questions)
 3. A disclosure timeline will be coordinated with you
 4. The vulnerability will either be resolved or the risk accepted within that timeframe
