@@ -81,19 +81,19 @@ List of any impacted vendors, versions, and relevance
 
 | Type of Testing | Reason |
 |-----------------|--------|
-| **Malware, spam, phishing, or social engineering** | Targets individuals rather than systems and may cause harm or violate legal or ethical boundaries. |
-| **Denial-of-service (DoS) or resource exhaustion** | Disrupts availability and can degrade services for people. There are also legal impacts. |
-| **Testing systems not owned by Secure Hive Ltd** | Out-of-scope targets may belong to third parties and are not authorized for testing. |
-| **Clickjacking on non-sensitive pages** | No meaningful impact if the content or actions are not sensitive. |
-| **CSRF on non-sensitive forms** | Has little to no consequence if it doesn’t affect important functionality or data. |
-| **MITM or physical access** | Assumes an unrealistic level of control by an attacker and is not relevant to typical scenarios. |
-| **Known vulnerable libraries without a working PoC** | Lacks demonstrated exploitability within the context of the environment. |
-| **CSV injection without an exploit path** | Requires further conditions to be effective; not actionable on its own. |
-| **Content spoofing with no meaningful impact** | Cosmetic or visual issues without consequence for people or systems. |
-| **Vulnerabilities that require unrealistic user interaction** | Depends on unlikely behavior from people, making it impractical to address. |
-| **Automated scan outputs without manual validation** | Automated scans (e.g. DAST, SAST, etc.) are already performed internally and often lack value without human validation and context. |
-| **Stack traces, version banners, or benign error messages** | Informational only and do not directly affect system behavior or security. |
-| **Vulnerabilities affecting unsupported browser versions (2+ versions behind)** | Applies to outdated software that is no longer supported or used in practice. |
+| Malware, spam, phishing, or social engineering | Targets individuals rather than systems and may cause harm or violate legal or ethical boundaries. |
+| Denial-of-service (DoS) or resource exhaustion | Disrupts availability and can degrade services for people. There are also legal impacts. |
+| Testing systems not owned by Secure Hive Ltd | Out-of-scope targets may belong to third parties and are not authorized for testing. |
+| Clickjacking on non-sensitive pages | No meaningful impact if the content or actions are not sensitive. |
+| CSRF on non-sensitive forms | Has little to no consequence if it doesn’t affect important functionality or data. |
+| MITM or physical access | Assumes an unrealistic level of control by an attacker and is not relevant to typical scenarios. |
+| Known vulnerable libraries without a working PoC | Lacks demonstrated exploitability within the context of the environment. |
+| CSV injection without an exploit path | Requires further conditions to be effective; not actionable on its own. |
+| Content spoofing with no meaningful impact | Cosmetic or visual issues without consequence for people or systems. |
+| Vulnerabilities that require unrealistic user interaction | Depends on unlikely behavior from people, making it impractical to address. |
+| Automated scan outputs without manual validation | Automated scans (e.g. DAST, SAST, etc.) are already performed internally and often lack value without human validation and context. |
+| Stack traces, version banners, or benign error messages | Informational only and do not directly affect system behavior or security. |
+| Vulnerabilities affecting unsupported browser versions (2+ versions behind) | Applies to outdated software that is no longer supported or used in practice. |
 
 ## Allowed testing
 
