@@ -17,7 +17,7 @@ seo:
 
 
 {{< callout context="tip" title="Why private disclosure is preferred" icon="outline/rocket" >}}
-Disclosing privately gives time to fix and retest any disclosures, protects people from active threats, and ensures you get accurate credit when the vulnerability is made public.
+Disclosing privately gives time to fix and retest any disclosures, protects people from active threats, and ensures you get credit when a vulnerability is made public.
 {{< /callout >}}
 
 
@@ -42,7 +42,7 @@ Using Signal means:
 - Verified, secure communication
 {{< /callout >}}
 
-## Reporting requirements
+## Reporting guidelines
 
 Clear, complete reports are essential to validation and resolution. Submissions must include:
 
@@ -53,14 +53,15 @@ Clear, complete reports are essential to validation and resolution. Submissions 
 
 
 - **CVSS Score & Impact**  
-  - Severity using a public [CVSS calculator](https://www.first.org/cvss/calculator/4-0")  
+  - Severity using a [CVSS calculator](https://www.first.org/cvss/calculator/4-0)  
   - Description of the impact (e.g., privilege escalation, data exposure)  
   - Affected components and likelihood of exploitation
+  - Any planned disclosure timelines or motivating factors
 
 
 - **Remediation Guidance (Optional)**  
   - Suggested mitigations or code improvements  
-  - References to best practices (e.g., [OWASP](https://owasp.org "OWASP Foundation"))  
+  - References to best practices (e.g., OWASP)  
   - Long-term security considerations
 
 
@@ -101,16 +102,24 @@ Clear, complete reports are essential to validation and resolution. Submissions 
 
 ## Coordinated disclosure process
 
+{{< callout context="caution" title="Disclosure prioritization and transparency" icon="outline/alert-triangle" >}}
+Disclosures are prioritized, and any affected parties will be informed openly and without delay unless required by law.
+{{< /callout >}}
+
+
 Upon receiving a report:
 
 - Your submission will be reviewed and validated  
 - A response will be sent within **5 business days** (confirmation or follow-up questions)  
-- A disclosure timeline will be coordinated with the researcher  
+- A disclosure timeline will be coordinated with you
 - The vulnerability will either be resolved or the risk accepted within that timeframe  
 - Once the vulnerability is resolved, public disclosure is welcome. Linking to an advisory is encouraged for recognition and community awareness. 
 - Valid reports may be acknowledged publicly (if permission is granted)
 
-Disclosures are prioritized, and any affected parties will be informed openly and without delay unless required by law.
+
+{{< callout context="note" title="Disclosure response times" icon="outline/info-circle" >}}
+Response times may vary depending on the complexity and severity of the reported vulnerability. Timelines, status updates, and collaboration will be provided when appropriate.
+{{< /callout >}}
 
 ## Recognition
 
