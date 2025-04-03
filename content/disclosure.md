@@ -3,7 +3,7 @@ title: "Responsible disclosure policy"
 description: ""
 summary: ""
 date: 2025-04-02T17:19:07+02:00
-lastmod: 2025-04-03T10:37:07+02:00
+lastmod: 2025-04-03T10:56:07+02:00
 draft: false
 type: "legal"
 seo:
@@ -17,7 +17,7 @@ seo:
 
 
 {{< callout context="tip" title="Why private disclosure is preferred" icon="outline/rocket" >}}
-Disclosing privately gives time to fix and retest any disclosures , protects people from active threats, and ensures you get accurate credit when the issue is made public.
+Disclosing privately gives time to fix and retest any disclosures, protects people from active threats, and ensures you get accurate credit when the vulnerability is made public.
 {{< /callout >}}
 
 
@@ -28,9 +28,9 @@ Disclosing privately gives time to fix and retest any disclosures , protects peo
 
 ## How to report a vulnerability
 
-All vulnerability submissions **must go through** [openbugbounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the disclosure involves intrusive testing (which violates OpenBugBounty's terms of service).
+All disclosure submissions **must go through** [openbugbounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the disclosure involves intrusive testing (which violates the [Open Bug Bounty project's terms of service](https://www.openbugbounty.org/terms-and-privacy/).
 
-For secure, real-time communication, join our **Signal group**:[Secure Hive Security Disclosure](https://signal.group/#C123FakeLinkReplaceMe)
+For secure, real-time communication, join our: [Secure Hive security disclosure Signal group]([https://signal.group/#C123FakeLinkReplaceMe](https://signal.group/#CjQKIKJmK8FOpqOa5IvHXvy33EMsDXfz9qZMW6y1DKLThiFdEhAzg6FvJqdnR_vI3J2UVgD8))
 
 {{< callout context="note" title="Why use Signal to communicate?" icon="outline/info-circle" >}}
 Using Signal means:
@@ -70,7 +70,7 @@ Clear, complete reports are essential to validation and resolution. Submissions 
 ## Researcher responsibilities
 
 - Only test systems listed in scope  
-- Avoid disruption or harm to people, systems, data or privacy  
+- Avoid disruption or harm to people, systems, data, or privacy  
 - Immediately report any access to personally identifiable information (PII) or other sensitive data  
 - Do not retain, reuse, or share data encountered during testing  
 - Request clarification if scope or boundaries are unclear
@@ -90,7 +90,7 @@ Clear, complete reports are essential to validation and resolution. Submissions 
   - Vulnerabilities that require unrealistic user interaction  
   - Automated scan outputs without manual validation  
   - Stack traces, version banners, or benign error messages  
-  - Issues affecting unsupported browser versions (2+ versions behind)
+  - Vulnerabilities affecting unsupported browser versions (2+ versions behind)
 
 ## Allowed testing
 
@@ -106,8 +106,8 @@ Upon receiving a report:
 - Your submission will be reviewed and validated  
 - A response will be sent within **5 business days** (confirmation or follow-up questions)  
 - A disclosure timeline will be coordinated with the researcher  
-- The issue will either be resolved or the risk accepted within that timeframe  
-- Once the issue is resolved, public disclosure is welcome. Linking to an advisory is encouraged for recognition and community awareness 
+- The vulnerability will either be resolved or the risk accepted within that timeframe  
+- Once the vulnerability is resolved, public disclosure is welcome. Linking to an advisory is encouraged for recognition and community awareness. 
 - Valid reports may be acknowledged publicly (if permission is granted)
 
 Disclosures are prioritized, and any affected parties will be informed openly and without delay unless required by law.
@@ -124,7 +124,7 @@ Eligible researchers may receive:
 ## Terms
 
 - Stop testing immediately if asked. Failure to comply may result in permanent removal from the program.
-- Credit is given to the first reporter of an issue (unless otherwise requested)
+- Credit is given to the first reporter of a vulnerability (unless otherwise requested)
 - Recognition and rewards must be claimed within **12 months**  
 - You're responsible for applicable taxes on non-charitable rewards
 - Rewards and acknowledgments are not available to individuals in countries under international sanctions
