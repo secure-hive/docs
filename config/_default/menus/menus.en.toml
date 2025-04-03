@@ -90,6 +90,6 @@ url = "/terms/"
 weight = 20
 
 [[footer]]
-name = "Responsible Disclosure Policy"
+name = "Responsible Disclosure"
 url = "/disclosure/"
 weight = 30
