@@ -1,9 +1,9 @@
 ---
-title: "Vulnerability disclosure policy"
+title: "Responsible disclosure policy"
 description: ""
 summary: ""
-date: 2023-09-07T17:19:07+02:00
-lastmod: 2023-09-07T17:19:07+02:00
+date: 2025-04-02T17:19:07+02:00
+lastmod: 2025-04-03T10:37:07+02:00
 draft: false
 type: "legal"
 seo:
@@ -13,21 +13,34 @@ seo:
   noindex: false # false (default) or true
 ---
 
-**To the ethical hackers and researchers who help uncover the unseen** — Your investigative work is greatly appreciated. [Responsible disclosure](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure "Wikipedia: Coordinated Vulnerability Disclosure") doesn’t just fix code; it protects people and their privacy. Your efforts make systems safer, faster, and more resilient. Together, we defend what matters.
+**To the ethical hackers and researchers who help uncover the unknown** — Your investigative work is greatly appreciated. [Responsible disclosure](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure "Wikipedia: Coordinated Vulnerability Disclosure") doesn’t just fix code; it protects people and their privacy. Your efforts make systems safer, faster, and more resilient. Together, we defend what matters.
+
 
 {{< callout context="tip" title="Why private disclosure is preferred" icon="outline/rocket" >}}
 Disclosing privately gives time to fix and retest any disclosures , protects people from active threats, and ensures you get accurate credit when the issue is made public.
 {{< /callout >}}
 
-## Vulnerability disclosure scope
+
+## Disclosure scope
 
 - `*.securehive.co.uk`
 - `*.docs.securehive.co.uk`
 
-## Where to submit
+## How to report a vulnerability
 
-All vulnerability submissions **must go through** [OpenBugBounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the issue involves intrusive testing (which violates their terms of service). In such cases, email:  
-**[security@securehive.co.uk](mailto:security@securehive.co.uk "Submit a vulnerability via email")**
+All vulnerability submissions **must go through** [openbugbounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the disclosure involves intrusive testing (which violates OpenBugBounty's terms of service).
+
+For secure, real-time communication, join our **Signal group**:[Secure Hive Security Disclosure](https://signal.group/#C123FakeLinkReplaceMe)
+
+{{< callout context="note" title="Why use Signal to communicate?" icon="outline/info-circle" >}}
+Using Signal means:
+
+- No email/PII sharing  
+- Real-time read receipts  
+- Minimal metadata collection  
+- Perfect forward secrecy  
+- Verified, secure communication
+{{< /callout >}}
 
 ## Reporting requirements
 
@@ -38,15 +51,18 @@ Clear, complete reports are essential to validation and resolution. Submissions 
   - Screenshots or videos (optional but helpful)  
   - Safe scripts or payloads with required parameters  
 
+
 - **CVSS Score & Impact**  
-  - Severity using a public [CVSS calculator](https://www.first.org/cvss/calculator/3.1 "CVSS Calculator")  
+  - Severity using a public [CVSS calculator](https://www.first.org/cvss/calculator/4-0")  
   - Description of the impact (e.g., privilege escalation, data exposure)  
   - Affected components and likelihood of exploitation
+
 
 - **Remediation Guidance (Optional)**  
   - Suggested mitigations or code improvements  
   - References to best practices (e.g., [OWASP](https://owasp.org "OWASP Foundation"))  
   - Long-term security considerations
+
 
 - **Third-Party Involvement**  
   - List of any impacted vendors, versions, and relevance
@@ -100,7 +116,7 @@ Disclosures are prioritized, and any affected parties will be informed openly an
 
 Eligible researchers may receive:
 
-- Credit on our [Acknowledgments Page](https://www.securehive.co.uk/acknowledgments "Secure Hive Acknowledgments Page") and official social media (social handles may be shared for attribution)
+- Credit on our [acknowledgments page](https://www.securehive.co.uk/acknowledgments "Secure Hive Acknowledgments Page") and official social media (social handles may be shared for attribution)
 - Company branded merchandise (based on severity and at our discretion)  
 - Charitable donations are available on request, with proof of donation (Selected from a list of charities)
 
