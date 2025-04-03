@@ -84,7 +84,12 @@
   url = "/privacy/"
   weight = 10
 
-# [[footer]]
-#   name = "Terms of Service"
-#   url = "/terms/"
-#   weight = 20
+[[footer]]
+name = "Terms of Service"
+url = "/terms/"
+weight = 20
+
+[[footer]]
+name = "Responsible Disclosure Policy"
+url = "/disclosure/"
+weight = 30
