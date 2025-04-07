@@ -2,7 +2,7 @@
 title: "Responsible disclosure policy"
 description: ""
 summary: ""
-date: 2025-04-02T17:19:07+02:00
+date: 2025-04-07T17:19:07+02:00
 lastmod: 2025-04-03T10:56:07+02:00
 draft: false
 type: "legal"
@@ -28,7 +28,7 @@ Disclosing privately gives time to fix and retest any disclosures, protects peop
 
 ## How to report a vulnerability
 
-All disclosures **must go through** [openbugbounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the disclosure involves intrusive testing which violates the [Open Bug Bounty project's terms of service](https://www.openbugbounty.org/terms-and-privacy/).
+Our responsible disclosure process is managed by [openbugbounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the disclosure involves intrusive testing which violates the [Open Bug Bounty project's terms of service](https://www.openbugbounty.org/terms-and-privacy/).
 
 Alternatively for secure, real-time communication, join our [Secure Hive security disclosure Signal group]([https://signal.group/#C123FakeLinkReplaceMe](https://signal.group/#CjQKIKJmK8FOpqOa5IvHXvy33EMsDXfz9qZMW6y1DKLThiFdEhAzg6FvJqdnR_vI3J2UVgD8))
 
@@ -73,27 +73,32 @@ List of any impacted vendors, versions, and relevance
 
 - Only test systems listed in scope  
 - Avoid disruption or harm to people, systems, data, or privacy  
-- Immediately report any access to personally identifiable information (PII) or other sensitive data  
-- Do not retain, reuse, or share data encountered during testing  
+- Immediately report any access to personally identifiable information (PII) or other sensitive data
+- Do not retain, reuse, or share data encountered during testing
+- Submit one vulnerability at a time, unless chaining is required to show impact.
+- Only test accounts you own or have explict permission to use.
 - Request clarification if scope or boundaries are unclear
 
 ## Prohibited testing
 
-| Type of Testing | Reason |
+ Type of Testing | Reason |
 |-----------------|--------|
-| Malware, spam, phishing, or social engineering | Targets individuals rather than systems and may cause harm or violate legal or ethical boundaries. |
+| Malware | Malware samples or delivery mechanisms are not permitted due to safety, legal, and operational concerns. |
+| Social engineering (e.g. phishing, vishing, smishing) | Targets people rather than systems and can cause harm or violate legal and ethical boundaries. |
 | Denial-of-service (DoS) or resource exhaustion | Disrupts availability and can degrade services for people. There are also legal impacts. |
 | Testing systems not owned by Secure Hive Ltd | Out-of-scope targets may belong to third parties and are not authorized for testing. |
 | Clickjacking on non-sensitive pages | No meaningful impact if the content or actions are not sensitive. |
-| CSRF on non-sensitive forms | Has little to no consequence if it doesn’t affect important functionality or data. |
-| MITM or physical access | Assumes an unrealistic level of control by an attacker and is not relevant to typical scenarios. |
+| CSRF (Cross-Site Request Forgery) on non-sensitive forms | Has little to no consequence if it doesn’t affect important functionality or data. |
+| MITM (Man-in-the-Middle) or physical access | Assumes an unrealistic level of control by an attacker and is not relevant to typical scenarios. |
 | Known vulnerable libraries without a working PoC | Lacks demonstrated exploitability within the context of the environment. |
 | CSV injection without an exploit path | Requires further conditions to be effective; not actionable on its own. |
 | Content spoofing with no meaningful impact | Cosmetic or visual issues without consequence for people or systems. |
 | Vulnerabilities that require unrealistic user interaction | Depends on unlikely behavior from people, making it impractical to address. |
 | Automated scan outputs without manual validation | Automated scans (e.g. DAST, SAST, etc.) are already performed internally and often lack value without human validation and context. |
 | Stack traces, version banners, or benign error messages | Informational only and do not directly affect system behavior or security. |
-| Vulnerabilities affecting unsupported browser versions (2+ versions behind) | Applies to outdated software that is no longer supported or used in practice. |
+| Missing best practices in Content Security Policy (CSP) | Already monitored internally; known and tracked using automated tooling. |
+| Missing email best practices (e.g. SPF, DKIM, DMARC) |  Already monitored internally; known and tracked using automated tooling. |
+| Content spoofing or text injection without HTML/CSS modification | No demonstrated control over content rendering or user experience. |
 
 ## Allowed testing
 
@@ -136,6 +141,8 @@ Eligible researchers may receive:
 - Credit is given to the first reporter of a vulnerability (unless otherwise requested)
 - Recognition and rewards must be claimed within **12 months**  
 - You're responsible for applicable taxes on non-charitable rewards
+- Findings from SSL/TLS or security score sites aren’t eligible
+- Public zero-days patched within the last month are excluded but may be accepted case-by-case based on novelty and impact.
 - Rewards and acknowledgments are not available to individuals in countries under international sanctions
 
 ## Safe Harbour and legal protections
