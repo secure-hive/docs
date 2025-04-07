@@ -28,9 +28,9 @@ Disclosing privately gives time to fix and retest any disclosures, protects peop
 
 ## How to report a vulnerability
 
-Our responsible disclosure process is managed by [openbugbounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the disclosure involves intrusive testing which violates the [Open Bug Bounty project's terms of service](https://www.openbugbounty.org/terms-and-privacy/).
+The responsible disclosure process is managed by [openbugbounty.org](https://www.openbugbounty.org "Submit a vulnerability via OpenBugBounty"), unless the submission involves intrusive testing or otherwise violates the [Open Bug Bounty Terms of Service](https://www.openbugbounty.org/terms-and-privacy/).
 
-Alternatively for secure, real-time communication, join our [Secure Hive security disclosure Signal group]([https://signal.group/#C123FakeLinkReplaceMe](https://signal.group/#CjQKIKJmK8FOpqOa5IvHXvy33EMsDXfz9qZMW6y1DKLThiFdEhAzg6FvJqdnR_vI3J2UVgD8))
+In such cases, where Open Bug Bounty project can't be used, [join the Secure Hive Signal group](https://signal.group/#CjQKIKJmK8FOpqOa5IvHXvy33EMsDXfz9qZMW6y1DKLThiFdEhAzg6FvJqdnR_vI3J2UVgD8) to disclose the vulnerability.
 
 {{< callout context="note" title="Why use Signal to communicate?" icon="outline/info-circle" >}}
 Using Signal means:
@@ -76,14 +76,14 @@ List of any impacted vendors, versions, and relevance
 - Immediately report any access to personally identifiable information (PII) or other sensitive data
 - Do not retain, reuse, or share data encountered during testing
 - Submit one vulnerability at a time, unless chaining is required to show impact.
-- Only test accounts you own or have explict permission to use.
+- Only test accounts you own or have explicit permission to use.
 - Request clarification if scope or boundaries are unclear
 
 ## Prohibited testing
 
  Type of Testing | Reason |
 |-----------------|--------|
-| Malware | Malware samples or delivery mechanisms are not permitted due to safety, legal, and operational concerns. |
+| Use of Malware | Malware samples or delivery mechanisms are not permitted due to safety, legal, and operational concerns. |
 | Social engineering (e.g. phishing, vishing, smishing) | Targets people rather than systems and can cause harm or violate legal and ethical boundaries. |
 | Denial-of-service (DoS) or resource exhaustion | Disrupts availability and can degrade services for people. There are also legal impacts. |
 | Testing systems not owned by Secure Hive Ltd | Out-of-scope targets may belong to third parties and are not authorized for testing. |
