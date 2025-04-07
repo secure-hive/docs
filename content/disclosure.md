@@ -2,8 +2,8 @@
 title: "Responsible disclosure policy"
 description: ""
 summary: ""
-date: 2025-04-07T17:19:07+02:00
-lastmod: 2025-04-03T10:56:07+02:00
+date: 2025-04-03T10:56:07+02:00
+lastmod: 2025-04-07T17:10:45+02:00
 draft: false
 type: "legal"
 seo:
