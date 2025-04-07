@@ -99,6 +99,7 @@ List of any impacted vendors, versions, and relevance
 | Missing best practices in Content Security Policy (CSP) | Already monitored internally; known and tracked using automated tooling. |
 | Missing email best practices (e.g. SPF, DKIM, DMARC) |  Already monitored internally; known and tracked using automated tooling. |
 | Content spoofing or text injection without HTML/CSS modification | No demonstrated control over content rendering or user experience. |
+| Vulnerabilities affecting unpatched or unsupported browser versions (2+ versions behind)	Applies to outdated software that is no longer supported or used in practice. |
 
 ## Allowed testing
 
