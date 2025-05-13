@@ -252,7 +252,9 @@ Refer to the [incident response plans](#incident-response-plans) if you suspect 
   
 - **Separate admin credentials** Use different passwords for admin accounts to contain potential damage.
   
-- **Session re-authentication** After 10 minutes, re-authenticate to keep services safe if you step away.
+- **Session re-authentication** After 10 minutes or less, re-authenticate to keep services safe if you step away.
+
+- **Reset identity checks** All credential resets require a video call and valid ID to prevent impersonation.
   
 - **Audit trails** Lockouts, resets, and shared accounts are tracked for clear oversight.
   
